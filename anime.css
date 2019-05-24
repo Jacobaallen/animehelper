@@ -34,5 +34,9 @@ body {
 }
 
 .nav-wrapper{
-  background-color: blue;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 1000px;
 }
