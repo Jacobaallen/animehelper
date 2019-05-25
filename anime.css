@@ -33,10 +33,27 @@ body {
     overflow-x: hidden;
 }
 
-.nav-wrapper{
-  background-color: white;
-  width: auto;
-  height: 1000px;
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #3492D3 ;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: #3492D3 ;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3492D3 ;
+  }
 }
 
 .hero-image-1{
@@ -57,4 +74,22 @@ body {
   color: white;
   font-size: 5rem;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.about-master {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+
+.about-title {
+  display: flex;
+  text-align: center;
+  padding: 5em;
+  margin: 5em;
+}
+
+.about-text {
+  display: flex;
+  justify-content: center;
 }
