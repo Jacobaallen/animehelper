@@ -34,9 +34,27 @@ body {
 }
 
 .nav-wrapper{
-  background-image: url("background.png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: white;
   width: auto;
   height: 1000px;
+}
+
+.hero-image-1{
+  background-image: url("background-hero-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1100px;
+}
+
+.animehelper-text {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5rem;
+  text-shadow: 2px 2px 4px #000000;
 }
