@@ -39,17 +39,17 @@ body {
 
 .navbar{
   position: fixed;
+  text-shadow: 2px 2px 4px #000000;
+  color: black;
 }
 
 .navbar:not(.top-nav-collapse) {
   background: #D2DFFF ;
-  color: black;
 }
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: #D2DFFF ;
-    color: black;
   }
 }
 
@@ -98,7 +98,8 @@ body {
 .about-title {
   display: flex;
   text-align: center;
-  padding: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
   margin-top: 2em;
   margin-left: 2em;
   margin-right: 2em;
@@ -120,7 +121,8 @@ body {
 .how-it-works-title{
   display: flex;
   text-align: center;
-  padding: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
   margin-bottom: 2em;
   margin-left: 2em;
   margin-right: 2em;
