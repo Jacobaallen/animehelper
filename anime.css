@@ -67,12 +67,12 @@ body {
 
 .animehelper-text {
   text-align: center;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 45%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   text-shadow: 2px 2px 4px #000000;
 }
 
