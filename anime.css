@@ -131,7 +131,7 @@ body {
 
 .how-it-works-text{
   display: flex;
-  text-align: center;
+  text-align: left;
   padding: 2em;
   font-size: 1em;
 }
