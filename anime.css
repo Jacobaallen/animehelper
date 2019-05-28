@@ -28,6 +28,10 @@
     background-color: grey;
 }
 
+a{
+  color: white;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -39,11 +43,13 @@ body {
 
 .navbar:not(.top-nav-collapse) {
   background: #D2DFFF ;
+  color: black;
 }
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: #D2DFFF ;
+    color: black;
   }
 }
 
@@ -76,7 +82,7 @@ body {
 .search-text-1{
   text-align: center;
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 40%;
   color: white;
   font-size: 3em;
@@ -95,12 +101,13 @@ body {
   text-align: center;
   padding: 2em;
   margin: 2em;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .about-text {
   display: flex;
   justify-content: center;
+  padding: 5em;
 }
 
 .search-hero-image{
