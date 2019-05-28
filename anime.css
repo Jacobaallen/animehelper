@@ -89,7 +89,6 @@ body {
   text-shadow: 2px 2px 4px #000000;
 }
 
-
 .about-master {
   display: flex;
   align-items: center;
@@ -100,7 +99,9 @@ body {
   display: flex;
   text-align: center;
   padding: 2em;
-  margin: 2em;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
   font-size: 3em;
 }
 
@@ -108,6 +109,29 @@ body {
   display: flex;
   justify-content: center;
   padding: 5em;
+}
+
+.how-it-works-master{
+  display: flex;
+  align-items: center;
+  padding: 2em;
+}
+
+.how-it-works-title{
+  display: flex;
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 3em;
+}
+
+.how-it-works-text{
+  display: flex;
+  text-align: center;
+  padding: 2em;
+  font-size: 1em;
 }
 
 .search-hero-image{
