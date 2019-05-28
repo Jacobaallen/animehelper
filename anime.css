@@ -132,7 +132,8 @@ body {
 .how-it-works-text{
   display: flex;
   text-align: left;
-  padding: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
   font-size: 1em;
 }
 
