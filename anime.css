@@ -105,7 +105,8 @@ body {
 }
 
 .g1{
-  align-items: center;
+  display: flex;
+  justify-content: center;
   position: absolute;
   margin-top: 10em;
   left: 41.5%;
