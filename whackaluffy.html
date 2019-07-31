@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Whack-A-Luffy</title>
+    <link href="whackaluffy.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  <body>
+
+    <nav class="navbar">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#howitworks">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#games">Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#search">Search</a>
+          </li>
+        </ul>
+    </nav>
+
+    <div class="master-title">
+      <h1>Anime Fan Helper Games</h1>
+      <h3>Whack-A-Luffy: <span id='score'>0</span> / 10</h3>
+    </div>
+
+    <button onclick='startGame()'>Start</button>
+    <main>
+      <div class='barrel-bowl'>
+        <img src='images/barrel.png' class='bowl'>
+        <img src='images/Luffy.png' class='luffy' onclick='bonk(this)'>
+      </div>
+
+      <div class='barrel-bowl'>
+        <img src='images/barrel.png' class='bowl'>
+        <img src='images/Luffy.png' class='luffy' onclick='bonk(this)'>
+      </div>
+
+      <div class='barrel-bowl'>
+        <img src='images/barrel.png' class='bowl'>
+        <img src='images/Luffy.png' class='luffy' onclick='bonk(this)'>
+      </div>
+
+      <div class='barrel-bowl'>
+        <img src='images/barrel.png' class='bowl'>
+        <img src='images/Luffy.png' class='luffy' onclick='bonk(this)'>
+      </div>
+
+      <div class='barrel-bowl'>
+        <img src='images/barrel.png' class='bowl'>
+        <img src='images/Luffy.png' class='luffy' onclick='bonk(this)'>
+      </div>
+
+      <div class='barrel-bowl'>
+        <img src='images/barrel.png' class='bowl'>
+        <img src='images/Luffy.png' class='luffy' onclick='bonk(this)'>
+      </div>
+    </main>
+    <script src="whackaluffy.js"></script>
+
+    </div>
+
+    <div class='footer'>
+      <p>copyright 2019 Whack-A-Luffy a Anime Fan Helper Game</p>
+    </div>
+  </body>
+</html>
