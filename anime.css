@@ -90,13 +90,13 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
+  height: 650px;
 }
 
 .games-title {
   text-align: center;
   position: absolute;
-  top: 175%;
+  margin-top: 1.5em;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -104,14 +104,11 @@ body {
   text-shadow: 2px 2px 4px #000000;
 }
 
-.coming-soon {
-  text-align: center;
+.g1{
+  align-items: center;
   position: absolute;
-  top: 190%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 5rem;
+  margin-top: 10em;
+  left: 41.5%;
   text-shadow: 2px 2px 4px #000000;
 }
 

@@ -20,7 +20,24 @@ body {
 }
 
 .master-title {
-    margin-top: 10px;
+  background-image: url("images/buggy.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-top: 10px;
+}
+.master-title2{
+  background-image: url("images/Alvida.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: right;
+}
+
+.about-information{
+  display: flex;
+  justify-content: center;
+  margin-left: 15em;
+  margin-right: 15em;
+  font-size: 2em;
 }
 
 button {
