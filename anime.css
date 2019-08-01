@@ -109,7 +109,16 @@ body {
   justify-content: center;
   position: absolute;
   margin-top: 10em;
-  left: 41.5%;
+  left: 50%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.g2{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 10em;
+  left: 25%;
   text-shadow: 2px 2px 4px #000000;
 }
 

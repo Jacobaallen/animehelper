@@ -89,3 +89,70 @@ main {
   top: 50%;
   height: 2em;
 }
+
+@media (max-width: 800px) {
+  .master-title {
+    background-image: url("images/buggy.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-top: 10px;
+  }
+  .master-title2{
+    background-image: url("images/Alvida.png");
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: right;
+  }
+
+  .about-information{
+    display: flex;
+    justify-content: center;
+    margin-left: 15em;
+    margin-right: 15em;
+    font-size: 2em;
+  }
+
+  button {
+    width: 10%;
+    height: 2em;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .barrel-bowl {
+    height: 250px;
+    width: 30%;
+    position: relative;
+    margin-top: 150px;
+  }
+
+  .bowl {
+    width: 200px;
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+  }
+
+  .luffy {
+    width: 150px;
+    z-index: 0;
+    position: absolute;
+    transition:all 0.4s;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: 0 auto;
+  }
+
+  .up {
+    bottom: 150px;
+  }
+
+}
