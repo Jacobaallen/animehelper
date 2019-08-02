@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Space Invaders</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="space-invaders.css" />
+</head>
+
+<body>
+
+	<nav class="navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#howitworks">How It Works</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#games">Games</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html#search">Search</a>
+				</li>
+				<p>Use the Spacebar to attack. Use the Arrow keys to move right and left.</p>
+			</ul>
+	</nav>
+
+	<div id="stats">
+		<p id="hits">Hits: 0</p>
+		<p id="miss">Miss: 0</p>
+		<div class="play">
+			<A HREF="javascript:history.go(0)">Play Again</A>
+		</div>
+	</div>
+
+	<p id="message"></p>
+	<img id="ship" src="images/tank2.png"/>
+
+	<!--include non-blocking js-->
+	<script src="space-invaders.js"></script>
+</body>
+</html>
