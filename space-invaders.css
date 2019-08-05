@@ -9,12 +9,12 @@ body {
 }
 
 .navbar:not(.top-nav-collapse) {
-  background: #D2DFFF ;
+  background: black ;
 }
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #D2DFFF ;
+    background: black ;
   }
 }
 
@@ -22,7 +22,7 @@ body {
 	position: absolute;
 	right: 20px;
 	top: 20px;
-	border: 5px solid #D2DFFF;
+	border: 5px solid black;
 	width: 140px;
 	font-size: 22px;
 	font-weight: bold;
@@ -49,7 +49,7 @@ body {
 #ship {
 	height: 70px;
 	position: absolute;
-	bottom: 0px;
+	bottom: 40px;
 	left: 50%;
 }
 
@@ -95,4 +95,12 @@ body {
 @keyframes moveUp {
 	from {bottom: 60px;}
 	to {bottom: 1000px;}
+}
+
+.footer {
+	background-color: #fa9157;
+	text-align: center;
+	position: fixed;
+  bottom: 0;
+  width: 100%;
 }
