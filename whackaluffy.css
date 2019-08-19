@@ -20,14 +20,10 @@ body {
 }
 
 .master-title {
-  background-image: url("images/buggy.png");
-  background-repeat: no-repeat;
   height: 600px;
   margin-top: 10px;
 }
 .master-title2{
-  background-image: url("images/Alvida.png");
-  background-repeat: no-repeat;
   height: 600px;
   background-position: right;
 }
@@ -90,31 +86,31 @@ main {
   height: 2em;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 991px) {
   .master-title {
-    background-image: url("images/buggy.png");
-    background-repeat: no-repeat;
-    height: 300px;
-    margin-top: 10px;
+    height: 5px;
+    margin-top: 5px;
+    font-size: 5px;
+
   }
   .master-title2{
-    background-image: url("images/Alvida.png");
-    background-repeat: no-repeat;
-    height: 300px;
+    height: 5px;
     background-position: right;
+    font-size: 20px;
   }
 
   .about-information{
     display: flex;
     justify-content: center;
-    margin-left: 15em;
-    margin-right: 15em;
-    font-size: 2em;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1em;
+    margin-bottom: 120px;
   }
 
   button {
     width: 10%;
-    height: 2em;
+    height: 1em;
   }
 
   main {
@@ -131,7 +127,7 @@ main {
   }
 
   .bowl {
-    width: 200px;
+    width: 150px;
     z-index: 10;
     position: absolute;
     right: 0;
@@ -141,18 +137,81 @@ main {
   }
 
   .luffy {
-    width: 150px;
+    width: 100px;
     z-index: 0;
     position: absolute;
     transition:all 0.4s;
     left: 0;
     right: 0;
-    bottom: 20px;
+    bottom: 5px;
     margin: 0 auto;
   }
 
   .up {
-    bottom: 150px;
+    bottom: 125px;
   }
 
+}
+
+@media (max-width: 700px) {
+  .master-title {
+    height: 20px;
+    margin-top: 2px;
+  }
+  .master-title2{
+    height: 10px;
+    background-position: right;
+  }
+
+  .about-information{
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1em;
+    margin-bottom: 100px;
+  }
+
+  button {
+    width: 10%;
+    height: 1em;
+  }
+
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .barrel-bowl {
+    height: 250px;
+    width: 30%;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .bowl {
+    width: 75px;
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+  }
+
+  .luffy {
+    width: 50px;
+    z-index: 0;
+    position: absolute;
+    transition:all 0.4s;
+    left: 0;
+    right: 0;
+    bottom: 5px;
+    margin: 0 auto;
+  }
+
+  .up {
+    bottom: 75px;
+  }
 }
