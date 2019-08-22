@@ -109,7 +109,7 @@ main {
     justify-content: center;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 1em;
+    font-size: 1rem;
     margin-bottom: 100px;
   }
 
@@ -162,10 +162,12 @@ main {
   .master-title {
     height: 20px;
     margin-top: 2px;
+    font-size: 4em;
   }
   .master-title2{
     height: 10px;
     background-position: right;
+    font-size: 2rem;
   }
 
   .about-information{
@@ -173,7 +175,7 @@ main {
     justify-content: center;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 1em;
+    font-size: 1rem;
     margin-bottom: 100px;
   }
 
