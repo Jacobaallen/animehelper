@@ -19,6 +19,11 @@ body {
   }
 }
 
+.SM{
+  display: flex;
+  padding: 10px;
+}
+
 .master-title {
   height: 600px;
   margin-top: 10px;

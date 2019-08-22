@@ -24,6 +24,11 @@ body {
   }
 }
 
+.SM{
+  display: flex;
+  padding: 10px;
+}
+
 .hero-image-1{
   background-image: url("images/background-hero-1.png");
   background-repeat: no-repeat;

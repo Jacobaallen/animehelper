@@ -18,6 +18,11 @@ body {
   }
 }
 
+.SM{
+  display: flex;
+  padding: 10px;
+}
+
 #stats {
 	position: absolute;
 	right: 20px;

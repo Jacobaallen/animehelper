@@ -9,6 +9,11 @@ body {
   font: 16px sans-serif;
 }
 
+.SM{
+  display: flex;
+  padding: 10px;
+}
+
 .navbar{
   z-index: 1;
   text-shadow: 2px 2px 4px #000000;
