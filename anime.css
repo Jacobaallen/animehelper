@@ -212,6 +212,14 @@ a{
   text-shadow: 2px 2px 4px #000000;
 }
 
+.search-button {
+  color: black;
+  padding: 10px;
+  background-color: #D2DFFF;
+}
+.search-button :hover {
+  background-color: #111;
+}
 
 .kemicofa-row {
     display: flex;
