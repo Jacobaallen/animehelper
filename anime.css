@@ -1,22 +1,46 @@
-a{
-  color: white;
-}
-
 body {
   margin: 0;
   overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar{
   z-index: 1;
-  position: fixed;
   text-shadow: 2px 2px 4px #000000;
   color: black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar:not(.top-nav-collapse) {
   background: #D2DFFF ;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D2DFFF;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
@@ -26,7 +50,9 @@ body {
 
 .SM{
   display: flex;
-  padding: 10px;
+  justify-content: flex-end;
+  margin: 15px;
+  padding: 0;
 }
 
 .hero-image-1{
@@ -47,6 +73,10 @@ body {
   color: white;
   font-size: 4rem;
   text-shadow: 2px 2px 4px #000000;
+}
+
+a{
+  color: white ! important;
 }
 
 .search-button{
@@ -181,6 +211,7 @@ body {
   font-size: 10rem;
   text-shadow: 2px 2px 4px #000000;
 }
+
 
 .kemicofa-row {
     display: flex;
