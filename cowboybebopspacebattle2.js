@@ -14,7 +14,7 @@ const ENEMIES_PER_ROW = 10;
 const ENEMY_HORIZONTAL_PADDING = 80;
 const ENEMY_VERTICAL_PADDING = 70;
 const ENEMY_VERTICAL_SPACING = 80;
-const ENEMY_COOLDOWN = 2;
+const ENEMY_COOLDOWN = 4;
 
 const GAME_STATE = {
   lastTime: Date.now(),
