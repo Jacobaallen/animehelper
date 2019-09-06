@@ -90,7 +90,23 @@ a{
   text-align: center;
   position: absolute;
   top: 60%;
-  left: 40%;
+  left: 48%;
+  color: white;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.game-button{
+  background-color: #D2DFFF;
+  padding: 1rem;
+  border-radius: 10px
+}
+
+.game-text{
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 32%;
   color: white;
   font-size: 3em;
   text-shadow: 2px 2px 4px #000000;
