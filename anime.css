@@ -161,7 +161,7 @@ a{
   justify-content: center;
   position: absolute;
   margin-top: 10em;
-  left: 40%;
+  left: 35%;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -170,7 +170,7 @@ a{
   justify-content: center;
   position: absolute;
   margin-top: 10em;
-  left: 20%;
+  left: 15%;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -179,7 +179,16 @@ a{
   justify-content: center;
   position: absolute;
   margin-top: 10em;
-  left: 60%;
+  left: 55%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.g4 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 10em;
+  left: 75%;
   text-shadow: 2px 2px 4px #000000;
 }
 
