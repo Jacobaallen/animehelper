@@ -8,13 +8,13 @@ const GAME_HEIGHT = 600;
 const PLAYER_WIDTH = 40;
 const PLAYER_MAX_SPEED = 600.0;
 const LASER_MAX_SPEED = 300.0;
-const LASER_COOLDOWN = 0;
+const LASER_COOLDOWN = 0.5;
 
 const ENEMIES_PER_ROW = 10;
 const ENEMY_HORIZONTAL_PADDING = 80;
 const ENEMY_VERTICAL_PADDING = 70;
 const ENEMY_VERTICAL_SPACING = 80;
-const ENEMY_COOLDOWN = 5;
+const ENEMY_COOLDOWN = 4;
 
 const GAME_STATE = {
   lastTime: Date.now(),
@@ -94,7 +94,7 @@ function updatePlayer(dt, $container) {
     createLaser($container, GAME_STATE.playerX, GAME_STATE.playerY);
     GAME_STATE.playerCooldown = LASER_COOLDOWN;
   }
-  if (GAME_STATE.playerCooldown > .1) {
+  if (GAME_STATE.playerCooldown > 0) {
     GAME_STATE.playerCooldown -= dt;
   }
 

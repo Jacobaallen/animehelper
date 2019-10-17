@@ -201,26 +201,26 @@ footer {
   }
 }
 
-.game .enemy {
+.game1 .enemy {
   position: absolute;
   margin-left: -20px;
   margin-top: -18px;
   width: 40px;
 }
 
-.game .player {
+.game1 .player {
   position: absolute;
   margin-left: -20px;
   width: 40px;
 }
 
-.game .laser {
+.game1 .laser {
   position: absolute;
   margin-left: -2.5px;
   height: 30px;
 }
 
-.game .enemy-laser {
+.game1 .enemy-laser {
   position: absolute;
   margin-left: -2.5px;
   height: 30px;
@@ -305,14 +305,14 @@ footer {
     color: white;
   }
 
-  .game-wrapper {
+  .game-wrapper1 {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     background: #222;
   }
-  .game {
+  .game1 {
     width: 10em;
     background: url(../img/background-blue.png);
     animation: scroll-background 5s linear infinite;

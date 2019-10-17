@@ -5,16 +5,16 @@ const KEY_CODE_SPACE = 32;
 const GAME_WIDTH = 800;
 const GAME_HEIGHT = 600;
 
-const PLAYER2_WIDTH = 40;
-const PLAYER2_MAX_SPEED = 600.0;
-const LASER2_MAX_SPEED = 300.0;
-const LASER2_COOLDOWN = 0.5;
+const PLAYER_WIDTH = 40;
+const PLAYER_MAX_SPEED = 600.0;
+const LASER_MAX_SPEED = 300.0;
+const LASER_COOLDOWN = 0.3;
 
 const ENEMIES_PER_ROW = 10;
-const ENEMY2_HORIZONTAL_PADDING = 80;
-const ENEMY2_VERTICAL_PADDING = 70;
-const ENEMY2_VERTICAL_SPACING = 80;
-const ENEMY2_COOLDOWN = 4;
+const ENEMY_HORIZONTAL_PADDING = 80;
+const ENEMY_VERTICAL_PADDING = 70;
+const ENEMY_VERTICAL_SPACING = 80;
+const ENEMY_COOLDOWN = 2.5;
 
 const GAME_STATE = {
   lastTime: Date.now(),
@@ -63,7 +63,7 @@ function createPlayer($container) {
   GAME_STATE.playerX = GAME_WIDTH / 2;
   GAME_STATE.playerY = GAME_HEIGHT - 50;
   const $player = document.createElement("img");
-  $player.src = "img/swordfish.png";
+  $player.src = "img/star-wars-x-wing.png";
   $player.className = "player";
   $container.appendChild($player);
   setPosition($player, GAME_STATE.playerX, GAME_STATE.playerY);
@@ -90,11 +90,11 @@ function updatePlayer(dt, $container) {
     GAME_WIDTH - PLAYER_WIDTH
   );
 
-  if (GAME_STATE.spacePressed && GAME_STATE.playerCooldown <= 5) {
+  if (GAME_STATE.spacePressed && GAME_STATE.playerCooldown <= 0) {
     createLaser($container, GAME_STATE.playerX, GAME_STATE.playerY);
     GAME_STATE.playerCooldown = LASER_COOLDOWN;
   }
-  if (GAME_STATE.playerCooldown > 5) {
+  if (GAME_STATE.playerCooldown > 0) {
     GAME_STATE.playerCooldown -= dt;
   }
 
@@ -147,7 +147,7 @@ function destroyLaser($container, laser) {
 
 function createEnemy($container, x, y) {
   const $element = document.createElement("img");
-  $element.src = "img/enemy-blue-1.png";
+  $element.src = "img/star-destroyer.png";
   $element.className = "enemy";
   $container.appendChild($element);
   const enemy = {
