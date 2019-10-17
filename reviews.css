@@ -55,3 +55,14 @@ li a:hover {
   margin: 15px;
   padding: 0;
 }
+
+.coming-soon {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 4rem;
+  text-shadow: 2px 2px 4px #000000;
+}
