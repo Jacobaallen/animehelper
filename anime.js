@@ -43,7 +43,9 @@ function updateDom(data){
                             <p>${anime.synopsis}</p>
                         </div>
                         <div class="card-action">
+                          <button class="find-out-more-button">
                             <a href="${anime.url}">Find out more</a>
+                          </button>
                         </div>
                     </div>
                 `
@@ -62,7 +64,7 @@ function updateDom(data){
 function pageLoaded(){
     const form = document.getElementById('search_form');
     form.addEventListener("submit", searchAnime);
-    
+
 }
 
 

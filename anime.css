@@ -277,6 +277,14 @@ a{
     background-color: grey;
 }
 
+.find-out-more-button {
+  padding: 10px;
+  background-color: #D2DFFF;
+}
+.find-out-more-button :hover {
+  background-color: #111;
+}
+
 .Footer-master{
   background-color: #D2DFFF;
   text-align: center;
