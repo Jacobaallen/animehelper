@@ -10,6 +10,7 @@ body {
   color: black;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -65,4 +66,12 @@ li a:hover {
   color: black;
   font-size: 4rem;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.Footer-master{
+  background-color: #D2DFFF;
+  text-align: center;
+	position: fixed;
+  bottom: 0;
+  width: 100%;
 }
