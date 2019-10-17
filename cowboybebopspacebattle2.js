@@ -90,11 +90,11 @@ function updatePlayer(dt, $container) {
     GAME_WIDTH - PLAYER_WIDTH
   );
 
-  if (GAME_STATE.spacePressed && GAME_STATE.playerCooldown <= 0) {
+  if (GAME_STATE.spacePressed && GAME_STATE.playerCooldown <= 5) {
     createLaser($container, GAME_STATE.playerX, GAME_STATE.playerY);
     GAME_STATE.playerCooldown = LASER_COOLDOWN;
   }
-  if (GAME_STATE.playerCooldown > 0) {
+  if (GAME_STATE.playerCooldown > 5) {
     GAME_STATE.playerCooldown -= dt;
   }
 
