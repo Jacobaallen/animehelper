@@ -63,7 +63,7 @@ function createPlayer($container) {
   GAME_STATE.playerX = GAME_WIDTH / 2;
   GAME_STATE.playerY = GAME_HEIGHT - 50;
   const $player = document.createElement("img");
-  $player.src = "img/swordfish.png";
+  $player.src = "img/star-trek-1.png";
   $player.className = "player";
   $container.appendChild($player);
   setPosition($player, GAME_STATE.playerX, GAME_STATE.playerY);
@@ -147,7 +147,7 @@ function destroyLaser($container, laser) {
 
 function createEnemy($container, x, y) {
   const $element = document.createElement("img");
-  $element.src = "img/enemy-blue-1.png";
+  $element.src = "img/star-trek-enemy.png";
   $element.className = "enemy";
   $container.appendChild($element);
   const enemy = {
