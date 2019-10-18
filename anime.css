@@ -96,6 +96,10 @@ a{
   text-shadow: 2px 2px 4px #000000;
 }
 
+.search-text-1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .game-button{
   background-color: #D2DFFF;
   padding: 1rem;
@@ -110,6 +114,10 @@ a{
   color: white;
   font-size: 3em;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.game-text:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .about-master {
@@ -165,6 +173,10 @@ a{
   text-shadow: 2px 2px 4px #000000;
 }
 
+.g1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .g2{
   display: flex;
   justify-content: center;
@@ -172,6 +184,10 @@ a{
   margin-top: 10em;
   left: 15%;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.g2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .g3 {
@@ -183,6 +199,10 @@ a{
   text-shadow: 2px 2px 4px #000000;
 }
 
+.g3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .g4 {
   display: flex;
   justify-content: center;
@@ -190,6 +210,10 @@ a{
   margin-top: 10em;
   left: 75%;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.g4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .how-it-works-master{
