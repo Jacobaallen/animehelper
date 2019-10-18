@@ -63,7 +63,7 @@ function createPlayer($container) {
   GAME_STATE.playerX = GAME_WIDTH / 2;
   GAME_STATE.playerY = GAME_HEIGHT - 50;
   const $player = document.createElement("img");
-  $player.src = "img/swordfish.png";
+  $player.src = "img/R-M-spaceship.png";
   $player.className = "player";
   $container.appendChild($player);
   setPosition($player, GAME_STATE.playerX, GAME_STATE.playerY);
@@ -104,7 +104,7 @@ function updatePlayer(dt, $container) {
 
 function createLaser($container, x, y) {
   const $element = document.createElement("img");
-  $element.src = "img/laser-blue-1.png";
+  $element.src = "img/laser-green-10.png";
   $element.className = "laser";
   $container.appendChild($element);
   const laser = { x, y, $element };
@@ -147,7 +147,7 @@ function destroyLaser($container, laser) {
 
 function createEnemy($container, x, y) {
   const $element = document.createElement("img");
-  $element.src = "img/enemy-blue-1.png";
+  $element.src = "img/enemy-red-3.png";
   $element.className = "enemy";
   $container.appendChild($element);
   const enemy = {
