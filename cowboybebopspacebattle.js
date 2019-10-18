@@ -14,7 +14,7 @@ const ENEMIES_PER_ROW = 10;
 const ENEMY_HORIZONTAL_PADDING = 80;
 const ENEMY_VERTICAL_PADDING = 70;
 const ENEMY_VERTICAL_SPACING = 80;
-const ENEMY_COOLDOWN = 4;
+const ENEMY_COOLDOWN = 3;
 
 const GAME_STATE = {
   lastTime: Date.now(),
@@ -147,7 +147,7 @@ function destroyLaser($container, laser) {
 
 function createEnemy($container, x, y) {
   const $element = document.createElement("img");
-  $element.src = "img/enemy-blue-1.png";
+  $element.src = "img/enemy-black-5.png";
   $element.className = "enemy";
   $container.appendChild($element);
   const enemy = {
@@ -186,7 +186,7 @@ function destroyEnemy($container, enemy) {
 
 function createEnemyLaser($container, x, y) {
   const $element = document.createElement("img");
-  $element.src = "img/laser-red-5.png";
+  $element.src = "img/laser-red-10.png";
   $element.className = "enemy-laser";
   $container.appendChild($element);
   const laser = { x, y, $element };
