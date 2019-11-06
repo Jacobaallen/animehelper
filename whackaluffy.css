@@ -7,6 +7,9 @@ body {
   z-index: 1;
   text-shadow: 2px 2px 4px #000000;
   color: black;
+  display: flex;
+  justify-content: center;
+  height: 125px;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -29,7 +32,7 @@ body {
   margin-top: 10px;
 }
 .master-title2{
-  height: 600px;
+  height: 200px;
   background-position: right;
 }
 
