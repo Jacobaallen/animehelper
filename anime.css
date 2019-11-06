@@ -9,7 +9,9 @@ body {
   text-shadow: 2px 2px 4px #000000;
   color: black;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -51,7 +53,7 @@ li a:hover {
 
 .SM{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   margin: 15px;
   padding: 0;
 }
