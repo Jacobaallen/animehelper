@@ -9,7 +9,8 @@ body {
   color: black;
   display: flex;
   justify-content: center;
-  height: 125px;
+  width: 100%;
+  height: 120px;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -28,7 +29,7 @@ body {
 }
 
 .master-title {
-  height: 600px;
+  height: 400px;
   margin-top: 10px;
 }
 .master-title2{
@@ -95,17 +96,6 @@ main {
 }
 
 @media (max-width: 991px) {
-  .master-title {
-    height: 5px;
-    margin-top: 5px;
-    font-size: 5px;
-
-  }
-  .master-title2{
-    height: 5px;
-    background-position: right;
-    font-size: 4px;
-  }
 
   .about-information{
     display: flex;
