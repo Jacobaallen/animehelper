@@ -58,6 +58,16 @@ li a:hover {
   padding: 0;
 }
 
+.hero-image-4{
+  background-image: url("images/News_Wave.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 25%;
+  height: 300px;
+  width: 100%;
+}
 
 .news-articles {
   text-align: center;
@@ -68,10 +78,11 @@ li a:hover {
   color: black;
   font-size: 4rem;
   text-shadow: 2px 2px 4px #000000;
+  color: white;
 }
 
 .filter {
-  padding: 400px;
+  padding: 100px;
 }
 
 .container {
