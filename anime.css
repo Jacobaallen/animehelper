@@ -340,11 +340,10 @@ a{
   background-color: #D2DFFF;
   text-align: center;
   top: 50%;
-  height: 2em;
 }
 
 .counter {
-  border-color: #D2DFFF;
+  background-color: #D2DFFF;
   display: flex;
   justify-content: space-between;
 }
