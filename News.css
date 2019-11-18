@@ -154,5 +154,5 @@ li a:hover {
 .counter {
   background-color: #D2DFFF;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
