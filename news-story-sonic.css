@@ -149,7 +149,7 @@ li a:hover {
   position: absolute;
   top: 290%;
   left: 25%;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 @media (max-width: 991px) {
@@ -231,7 +231,7 @@ li a:hover {
     position: absolute;
     top: 3700px;
     left: 25%;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
   }
 }
 
@@ -245,6 +245,11 @@ li a:hover {
 
 .counter {
   background-color: #D2DFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.share-button {
   display: flex;
   justify-content: center;
 }
