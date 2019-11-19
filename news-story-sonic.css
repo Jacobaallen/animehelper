@@ -44,10 +44,19 @@ li a:hover {
   background-color: #111;
 }
 
+.logo {
+  width: 500px;
+  z-index: 0;
+}
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: #D2DFFF ;
+  }
+
+  .logo {
+    width: 200px;
+    z-index: 0;
   }
 }
 
