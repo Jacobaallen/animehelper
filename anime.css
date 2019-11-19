@@ -223,6 +223,7 @@ a{
   .news-text:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+
 }
 
 .about-master {
@@ -319,6 +320,60 @@ a{
 
 .g4:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media (max-width: 991px) {
+  .g1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10em;
+    left: 10px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .g1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .g2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10em;
+    left: 250px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .g2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .g3 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10em;
+    left: 500px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .g3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .g4 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 10em;
+    left: 75%;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .g4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
 }
 
 .how-it-works-master{
