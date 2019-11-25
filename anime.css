@@ -323,11 +323,20 @@ a{
 }
 
 @media (max-width: 991px) {
+  .games{
+    background-color: #D2DFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+  }
+
   .g1{
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 10em;
+    margin-top: 15em;
     left: 10px;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -340,7 +349,7 @@ a{
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 10em;
+    margin-top: 15em;
     left: 250px;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -353,7 +362,7 @@ a{
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 10em;
+    margin-top: 15em;
     left: 500px;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -366,7 +375,7 @@ a{
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 10em;
+    margin-top: 15em;
     left: 75%;
     text-shadow: 2px 2px 4px #000000;
   }
