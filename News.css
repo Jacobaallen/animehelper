@@ -11,7 +11,8 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 120px;
+  height: 100px;
+  padding: 10px;
 }
 
 .navbar:not(.top-nav-collapse) {
