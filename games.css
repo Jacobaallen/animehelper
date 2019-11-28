@@ -60,13 +60,12 @@ li a:hover {
 }
 
 .games{
-  background-color: #D2DFFF;
-  background-repeat: no-repeat;
+  background-image: url("images/games-background.gif");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   padding-top: 80px;
-  height: 300px;
+  height: 1300px;
 }
 
 .games-title {
