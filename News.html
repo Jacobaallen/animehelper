@@ -57,21 +57,43 @@
       <div class="filter">
         <div id="myBtnContainer">
           <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+          <button class="btn" onclick="filterSelection('anime')"> Anime Related</button>
           <button class="btn" onclick="filterSelection('current')"> Current Story</button>
+          <button class="btn" onclick="filterSelection('con')"> Convetion Related</button>
+          <button class="btn" onclick="filterSelection('came')"> Gaming Related</button>
           <button class="btn" onclick="filterSelection('old')"> Old News</button>
           <button class="btn" onclick="filterSelection('popCuture')"> Pop Cuture Related</button>
-          <button class="btn" onclick="filterSelection('anime')"> Anime Related</button>
-          <button class="btn" onclick="filterSelection('came')"> Gaming Related</button>
-          <button class="btn" onclick="filterSelection('con')"> Convetion Related</button>
+          <button class="btn" onclick="filterSelection('review')"> Reviews</button>
         </div>
 
   <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
         <div class="container">
-          <div class="box">
-            <div class="filterDiv current popCuture">
+          <div class="box-1">
+            <div class="filterDiv old popCuture">
               <a class="link" href="news-story-sonic.html">
                 <h4>Sonic Live Action Redesign Story.<h4>
                   <img src="images/sonic-redesign.jpg" width="200"/>
+                  <div class="info-1">
+                    <p>
+                      If you haven’t heard already, Sonic from the upcoming "Sonic the Hedgehog" live-action movie starring Jim Carrey as Sonic's
+                      nemesis Doctor Robotnik and Ben Schwartz as the voice of Sonic received a full redesign. This is an unheard-of event in the movie industry.
+                      Click to continue reading.
+                    </p>
+                  </div>
+                </a>
+            </div>
+          </div>
+          <div class="box-2">
+            <div class="filterDiv current review anime">
+              <a class="link" href="news-story-radiant.html">
+                <h4>Review of Radiant.<h4>
+                  <img src="images/radiant-1.jpg" width="200"/>
+                  <div class="info-2">
+                    <p>
+                      Welcome to our review of Radiant. Radiant is an anime and a manfra that began in 2013. Nope, I did not spell manfra wrong.
+                      Click to continue reading.
+                    </p>
+                  </div>
                 </a>
             </div>
           </div>
@@ -79,6 +101,9 @@
         </div>
       </div>
       <script src="News.js"></script>
+      <div class="blank">
+        <p>.</p>
+      </div>
 
       <div class="Footer-master">
         <div class="footer-text">
