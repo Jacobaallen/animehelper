@@ -153,9 +153,9 @@ li a:hover {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 145%;
-  width: 200px;
-  left: 40%;
+  top: 140%;
+  width: 700px;
+  left: 25%;
 }
 
 .body-2 {
@@ -209,8 +209,8 @@ li a:hover {
   justify-content: center;
   position: absolute;
   top: 430%;
-  width: 200px;
-  left: 40%;
+  width: 600px;
+  left: 25%;
 }
 
 .body-5 {
@@ -227,8 +227,8 @@ li a:hover {
   justify-content: center;
   position: absolute;
   top: 530%;
-  width: 200px;
-  left: 40%;
+  width: 400px;
+  left: 35%;
 }
 
 .body-6 {
