@@ -384,7 +384,7 @@ li a:hover {
     justify-content: center;
     position: absolute;
     top: 450px;
-    left: 10%;
+    left: 30%;
     width: 600px;
   }
 
@@ -422,7 +422,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 3200px;
+    top: 3100px;
     width: 200px;
     left: 40%;
   }
