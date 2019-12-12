@@ -255,7 +255,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 420px;
+    top: 450px;
     left: 20%;
     width: 600px;
   }
@@ -263,17 +263,19 @@ li a:hover {
   .body-1 {
     position: absolute;
     justify-content: center;
-    top: 880px;
+    top: 910px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .image-2 {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1550px;
+    top: 1500px;
     width: 200px;
     left: 460px;
   }
@@ -284,13 +286,15 @@ li a:hover {
     left: 60px;
     padding-top: 50px;
     font-size: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .image-3 {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 2950px;
+    top: 2800px;
     width: 200px;
     left: 40%;
   }
@@ -301,13 +305,15 @@ li a:hover {
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .image-4 {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4100px;
+    top: 4000px;
     width: 50px;
     left: 55%;
     align-items: center;
@@ -315,34 +321,38 @@ li a:hover {
 
   .body-4 {
     position: absolute;
-    top: 4400px;
+    top: 4300px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .image-5 {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5000px;
+    top: 4850px;
     width: 200px;
     left: 45%;
   }
 
   .body-5 {
     position: absolute;
-    top: 5300px;
+    top: 5200px;
     left: 60px;
     padding-top: 50px;
     font-size: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .image-6 {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5700px;
+    top: 5600px;
     height: 60px;
     left: 35%;
     padding-bottom: 400px;
@@ -358,7 +368,7 @@ li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #3492D3;
-    font-size: 60px;
+    font-size: 70px;
     text-shadow: 2px 2px 4px #000000;
   }
 
