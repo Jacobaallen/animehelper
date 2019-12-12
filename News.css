@@ -323,9 +323,9 @@ li a:hover {
   .filterDiv {
     float: center;
     background-color: #D2DFFF;
-    padding: 1px;
+    padding: 0px;
     width: 300px;
-    line-height: 100px;
+    line-height: 30px;
     text-align: center;
     display: none; /* Hidden by default */
   }
