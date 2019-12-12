@@ -262,27 +262,26 @@ li a:hover {
 
   .body-1 {
     position: absolute;
-    top: 860px;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: center;
+    top: 880px;
     padding-top: 50px;
     font-size: 30px;
+    left: 60px;
   }
 
   .image-2 {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1420px;
+    top: 1550px;
     width: 200px;
     left: 460px;
   }
 
   .body-2 {
     position: absolute;
-    top: 1750px;
-    padding-left: 50px;
-    padding-right: 50px;
+    top: 1900px;
+    left: 60px;
     padding-top: 50px;
     font-size: 30px;
   }
@@ -291,53 +290,50 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 2550px;
+    top: 2950px;
     width: 200px;
     left: 40%;
   }
 
   .body-3 {
     position: absolute;
-    top: 2750px;
-    padding-left: 50px;
-    padding-right: 50px;
+    top: 3150px;
     padding-top: 50px;
     font-size: 30px;
+    left: 60px;
   }
 
   .image-4 {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 3500px;
+    top: 4100px;
     width: 50px;
-    left: 50%;
+    left: 55%;
     align-items: center;
   }
 
   .body-4 {
     position: absolute;
-    top: 3800px;
-    padding-left: 50px;
-    padding-right: 50px;
+    top: 4400px;
     padding-top: 50px;
     font-size: 30px;
+    left: 60px;
   }
 
   .image-5 {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4250px;
+    top: 5000px;
     width: 200px;
-    left: 40%;
+    left: 45%;
   }
 
   .body-5 {
     position: absolute;
-    top: 4600px;
-    padding-left: 50px;
-    padding-right: 50px;
+    top: 5300px;
+    left: 60px;
     padding-top: 50px;
     font-size: 30px;
   }
@@ -346,9 +342,9 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4900px;
-    height: 100px;
-    left: 30%;
+    top: 5700px;
+    height: 60px;
+    left: 35%;
     padding-bottom: 400px;
   }
 
@@ -379,7 +375,7 @@ li a:hover {
     position: absolute;
     top: 420px;
     left: 20%;
-    width: 600px;
+    width: 300px;
   }
 
   .body-1 {
