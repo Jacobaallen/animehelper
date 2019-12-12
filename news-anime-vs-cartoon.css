@@ -178,7 +178,7 @@ li a:hover {
 
 .body-3 {
   position: absolute;
-  top: 255%;
+  top: 270%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
@@ -189,7 +189,7 @@ li a:hover {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 300%;
+  top: 310%;
   width: 50px;
   left: 50%;
   align-items: center;
@@ -197,7 +197,7 @@ li a:hover {
 
 .body-4 {
   position: absolute;
-  top: 335%;
+  top: 340%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
