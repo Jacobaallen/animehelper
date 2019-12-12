@@ -55,7 +55,7 @@ li a:hover {
     justify-content: center;
     width: 100%;
     height: 100px;
-    padding: 5px;
+    padding: 2px;
   }
 
   .navbar:not(.top-nav-collapse) {
@@ -80,7 +80,7 @@ li a:hover {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 14px;
     text-decoration: none;
   }
 
@@ -96,7 +96,7 @@ li a:hover {
 .SM{
   display: flex;
   justify-content: flex-end;
-  margin: 15px;
+  margin: 10px;
   padding: 0;
 }
 
@@ -128,75 +128,29 @@ li a:hover {
 
 .filter {
   padding: 20px;
-  background-color: #D2DFFF;
-  justify-content: center;
-  width: 100%;
   height: 75px;
   padding: 30px;
 }
 
 .container {
-  width: 60px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
   padding-top: 40px;
   top: 200px;
   padding-bottom: 100px;
+
+}
+
+#myBtnContainer {
   display: flex;
   justify-content: space-around;
-}
-
-.info-1 {
-  font-size: 20px;
-  color: black;
-}
-
-.info-2 {
-  font-size: 20px;
-  color: black;
-}
-
-.box-1 {
-
-}
-
-.box-2 {
-}
-
-@media (max-width: 991px) {
-  .news-articles {
-    text-align: center;
-    position: absolute;
-    font-size: 50px;
-    top: 240px;
-    left: 50%;
-    color: black;
-    text-shadow: 2px 2px 4px #000000;
-    color: white;
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-    border: 3px solid #f1f1f1;
-    transform: translate(-50%, -50%);
-    z-index: 0;
-  }
-
-  .filter {
-    padding: 10px;
-    background-color: #D2DFFF;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    height: 100px;
-  }
-
-  .container {
-    width: 200px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-  }
+  padding: 10px;
 }
 
 .filterDiv {
   float: left;
   background-color: #D2DFFF;
-
   padding: 1px;
   width: 300px;
   line-height: 100px;
@@ -231,6 +185,210 @@ li a:hover {
 .btn.active {
   background-color: #666;
   color: white;
+}
+
+.filterDiv {
+  float: center;
+  background-color: #D2DFFF;
+  padding: 1px;
+  width: 300px;
+  line-height: 30px;
+  text-align: center;
+  display: none; /* Hidden by default */
+}
+
+.filterDiv:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 18px 20px;
+  background-color: #3492D3;
+  cursor: pointer;
+  font-size: 15px
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #3492D3;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.info-1 {
+  color: black;
+  padding: 5px;
+}
+
+.info-2 {
+  color: black;
+  padding: 5px;
+}
+
+.info-3 {
+  color: black;
+  padding: 5px;
+}
+
+.box-1 {
+  top: 50%;
+  left: 10%;
+}
+
+.box-2 {
+  top: 50%;
+  left: 50%;
+}
+
+.box-3 {
+  top: 50%;
+  left: 75%;
+}
+
+@media (max-width: 991px) {
+  .news-articles {
+    text-align: center;
+    position: absolute;
+    font-size: 50px;
+    top: 240px;
+    left: 50%;
+    color: black;
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    border: 3px solid #f1f1f1;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+
+  .filter {
+    padding: 20px;
+    height: 75px;
+    padding: 30px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
+    top: 200px;
+    padding-bottom: 100px;
+
+  }
+
+  #myBtnContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+  }
+
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 10px 12px;
+    background-color: #3492D3;
+    cursor: pointer;
+  }
+
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #3492D3;
+  }
+
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+  .filterDiv {
+    float: center;
+    background-color: #D2DFFF;
+    padding: 1px;
+    width: 300px;
+    line-height: 100px;
+    text-align: center;
+    display: none; /* Hidden by default */
+  }
+
+  .filterDiv:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 18px 20px;
+    background-color: #3492D3;
+    cursor: pointer;
+    font-size: 15px
+  }
+
+  /* Add a light grey background on mouse-over */
+  .btn:hover {
+    background-color: #3492D3;
+  }
+
+  /* Add a dark background to the active button */
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+
+  .info-1 {
+    color: black;
+    padding: 5px;
+  }
+
+  .info-2 {
+    color: black;
+    padding: 5px;
+  }
+
+  .info-3 {
+    color: black;
+    padding: 5px;
+  }
+
+  .box-1 {
+    top: 50%;
+    left: 10%;
+  }
+
+  .box-2 {
+    top: 50%;
+    left: 50%;
+  }
+
+  .box-3 {
+    top: 50%;
+    left: 75%;
+  }
 }
 
 .Footer-master{
