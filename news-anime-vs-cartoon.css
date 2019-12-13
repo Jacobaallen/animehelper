@@ -229,13 +229,12 @@ li a:hover {
   top: 440%;
   width: 400px;
   left: 33%;
-  padding-bottom: 20%;
 }
 
 .fb-comments {
   display: flex;
   justify-content: center;
-  top: 460%
+  top: 470%
   left: 30%;
   padding-bottom: 20%;
 }
