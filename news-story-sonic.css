@@ -194,6 +194,14 @@ li a:hover {
   padding-bottom: 150px;
 }
 
+.fb-comments {
+  display: flex;
+  justify-content: center;
+  top: 470%
+  left: 30%;
+  padding-bottom: 20%;
+}
+
 @media (max-width: 991px) {
   .header {
     text-align: center;
