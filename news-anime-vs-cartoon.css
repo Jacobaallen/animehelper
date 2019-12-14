@@ -353,10 +353,11 @@ li a:hover {
     justify-content: center;
     position: absolute;
     top: 5600px;
-    height: 60px;
+    height: auto;
     left: 10%;
     padding-bottom: 400px;
     flex-direction: column;
+    align-items: center;
   }
 
 }
@@ -480,6 +481,7 @@ li a:hover {
   .image-6 {
     display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     top: 6800px;
     height: 60px;
