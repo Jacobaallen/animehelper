@@ -195,15 +195,6 @@ li a:hover {
   flex-direction: column;
 }
 
-.comments {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 320%
-  left: 30%;
-  padding-bottom: 150px;
-}
-
 @media (max-width: 991px) {
   .header {
     text-align: center;
@@ -284,15 +275,9 @@ li a:hover {
     top: 3700px;
     left: 25%;
     padding-bottom: 150px;
+    flex-direction: column;
   }
 
-  .comments {
-    display: flex;
-    justify-content: center;
-    top: 3900px;
-    left: 30%;
-    padding-bottom: 150px;
-  }
 }
 
 .Footer-master{
