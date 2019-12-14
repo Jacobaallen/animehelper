@@ -194,7 +194,7 @@ li a:hover {
   padding-bottom: 150px;
 }
 
-.fb-comments {
+.comments {
   display: flex;
   justify-content: center;
   top: 470%
@@ -281,6 +281,14 @@ li a:hover {
     position: absolute;
     top: 3700px;
     left: 25%;
+    padding-bottom: 150px;
+  }
+
+  .comments {
+    display: flex;
+    justify-content: center;
+    top: 3900px;
+    left: 30%;
     padding-bottom: 150px;
   }
 }
