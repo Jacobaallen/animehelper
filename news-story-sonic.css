@@ -192,14 +192,16 @@ li a:hover {
   top: 290%;
   left: 25%;
   padding-bottom: 150px;
+  flex-direction: column;
 }
 
 .comments {
   display: flex;
   justify-content: center;
-  top: 470%
+  position: absolute;
+  top: 320%
   left: 30%;
-  padding-bottom: 20%;
+  padding-bottom: 150px;
 }
 
 @media (max-width: 991px) {
