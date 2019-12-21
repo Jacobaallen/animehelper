@@ -275,7 +275,7 @@ li a:hover {
     top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #3492D3;
+    color: #BD1E33;
     font-size: 50px;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -440,7 +440,7 @@ li a:hover {
     top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #3492D3;
+    color: #BD1E33;
     font-size: 50px;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -476,7 +476,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1700px;
+    top: 1650px;
     left: 200px;
   }
 
@@ -514,13 +514,12 @@ li a:hover {
     position: absolute;
     top: 3600px;
     width: 50px;
-    left: 55%;
     align-items: center;
   }
 
   .body-4 {
     position: absolute;
-    top: 4000px;
+    top: 3900px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
@@ -532,14 +531,14 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4800px;
+    top: 4450px;
     width: 200px;
     left: 45%;
   }
 
   .body-5 {
     position: absolute;
-    top: 5300px;
+    top: 4750px;
     left: 60px;
     padding-top: 50px;
     font-size: 30px;
@@ -552,15 +551,14 @@ li a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 5800px;
+    top: 5300px;
     height: 60px;
-    left: 5%;
-    padding-bottom: 400px;
+    left: 30%;
   }
 
   .body-6 {
     position: absolute;
-    top: 5900px;
+    top: 5550px;
     left: 60px;
     padding-left: 0px;
     padding-right: 0px;
@@ -572,16 +570,17 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5850px;
+    top: 5900px;
     width: 700px;
-    left: 25%;
+    left: 20%;
   }
 
   .body-7 {
     position: absolute;
     top: 6200px;
-    padding-left: 100px;
-    padding-right: 100px;
+    left: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 50px;
     font-size: 30px;
   }
