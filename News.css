@@ -265,7 +265,7 @@ li a:hover {
   .filterDiv {
     float: center;
     background-color: #D2DFFF;
-    padding: 0px;
+    margin: 10px;
     width: 300px;
     line-height: 30px;
     text-align: center;
