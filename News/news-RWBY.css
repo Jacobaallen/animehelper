@@ -476,13 +476,13 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1650px;
+    top: 1800px;
     left: 200px;
   }
 
   .body-2 {
     position: absolute;
-    top: 2000px;
+    top: 2200px;
     left: 60px;
     padding-top: 50px;
     font-size: 30px;
@@ -494,14 +494,14 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 2500px;
+    top: 2900px;
     width: 200px;
     left: 40%;
   }
 
   .body-3 {
     position: absolute;
-    top: 2900px;
+    top: 3400px;
     font-size: 30px;
     left: 60px;
     padding-left: 0px;
@@ -512,14 +512,14 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 3600px;
+    top: 4300px;
     width: 50px;
     align-items: center;
   }
 
   .body-4 {
     position: absolute;
-    top: 3900px;
+    top: 4700px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
@@ -531,14 +531,14 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4450px;
+    top: 5400px;
     width: 200px;
     left: 45%;
   }
 
   .body-5 {
     position: absolute;
-    top: 4750px;
+    top: 5900px;
     left: 60px;
     padding-top: 50px;
     font-size: 30px;
@@ -551,14 +551,14 @@ li a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 5300px;
+    top: 6500px;
     height: 60px;
-    left: 30%;
+    left: 20%;
   }
 
   .body-6 {
     position: absolute;
-    top: 5550px;
+    top: 6800px;
     left: 60px;
     padding-left: 0px;
     padding-right: 0px;
@@ -570,14 +570,14 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5900px;
+    top: 7300px;
     width: 700px;
     left: 20%;
   }
 
   .body-7 {
     position: absolute;
-    top: 6200px;
+    top: 7800px;
     left: 60px;
     padding-left: 0px;
     padding-right: 0px;
@@ -589,7 +589,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 6700px;
+    top: 8400px;
     width: 700px;
     left: 25%;
     padding-bottom: 140px;
