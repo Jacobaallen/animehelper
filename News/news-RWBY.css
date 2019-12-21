@@ -208,14 +208,14 @@ li a:hover {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 370%;
+  top: 375%;
   width: 600px;
   left: 30%;
 }
 
 .body-5 {
   position: absolute;
-  top: 420%;
+  top: 410%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
