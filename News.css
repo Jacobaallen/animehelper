@@ -134,8 +134,6 @@ li a:hover {
 
 .container-1 {
   padding-top: 40px;
-  top: 200px;
-  padding-bottom: 100px;
   overflow: hidden;
 
 }
@@ -149,47 +147,7 @@ li a:hover {
 .filterDiv {
   float: left;
   background-color: #D2DFFF;
-  padding: 1px;
-  width: 300px;
-  line-height: 100px;
-  text-align: center;
-  margin: 10px;
-  display: none; /* Hidden by default */
-}
-
-.filterDiv:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: #3492D3;
-  cursor: pointer;
-}
-
-/* Add a light grey background on mouse-over */
-.btn:hover {
-  background-color: #3492D3;
-}
-
-/* Add a dark background to the active button */
-.btn.active {
-  background-color: #666;
-  color: white;
-}
-
-.filterDiv {
-  float: center;
-  background-color: #D2DFFF;
-  padding: 1px;
+  margin: 20px;
   width: 300px;
   line-height: 30px;
   text-align: center;
@@ -239,26 +197,6 @@ li a:hover {
 .info-3 {
   color: black;
   padding: 5px;
-}
-
-.box-1 {
-  top: 50%;
-  left: 10%;
-}
-
-.box-2 {
-  top: 50%;
-  left: 50%;
-}
-
-.box-3 {
-  top: 50%;
-  left: 75%;
-}
-
-.box-4 {
-  top: 100%;
-  left: 10%;
 }
 
 @media (max-width: 991px) {
@@ -377,21 +315,6 @@ li a:hover {
   .info-3 {
     color: black;
     padding: 5px;
-  }
-
-  .box-1 {
-    top: 50%;
-    left: 10%;
-  }
-
-  .box-2 {
-    top: 50%;
-    left: 50%;
-  }
-
-  .box-3 {
-    top: 50%;
-    left: 75%;
   }
 }
 
