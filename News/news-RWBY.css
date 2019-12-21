@@ -476,7 +476,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1800px;
+    top: 1850px;
     left: 200px;
   }
 
@@ -512,7 +512,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4300px;
+    top: 4400px;
     width: 50px;
     align-items: center;
   }
@@ -531,7 +531,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5400px;
+    top: 5500px;
     width: 200px;
     left: 45%;
   }
@@ -551,7 +551,7 @@ li a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 6500px;
+    top: 6600px;
     height: 60px;
     left: 20%;
   }
