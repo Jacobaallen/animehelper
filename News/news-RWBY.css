@@ -512,14 +512,14 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4400px;
+    top: 4500px;
     width: 50px;
     align-items: center;
   }
 
   .body-4 {
     position: absolute;
-    top: 4700px;
+    top: 4900px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
@@ -531,7 +531,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5500px;
+    top: 5700px;
     width: 200px;
     left: 45%;
   }
