@@ -247,7 +247,15 @@ li a:hover {
   top: 520%;
   width: 700px;
   left: 25%;
+}
+
+.comment-box {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 560%;
   padding-bottom: 200px;
+  left: 40%;
 }
 
 @media (max-width: 1200px) {
@@ -394,6 +402,14 @@ li a:hover {
     left: 25%;
   }
 
+  .comment-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 6400px;
+    padding-bottom: 200px;
+    left: 40%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -539,6 +555,14 @@ li a:hover {
     padding-bottom: 250px;
   }
 
+  .comment-box {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 8200px;
+    padding-bottom: 250px;
+    left: 40%;
+  }
 }
 
 .Footer-master{
