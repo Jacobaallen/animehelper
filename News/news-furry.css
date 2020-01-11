@@ -495,14 +495,14 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 2600px;
+    top: 2500px;
     width: 200px;
     left: 40%;
   }
 
   .body-3 {
     position: absolute;
-    top: 3400px;
+    top: 3300px;
     font-size: 30px;
     left: 60px;
     padding-left: 0px;
@@ -513,7 +513,7 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4300px;
+    top: 4200px;
     width: 50px;
     align-items: center;
   }
@@ -532,13 +532,13 @@ li a:hover {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5600px;
+    top: 5400px;
     left: 30%;
   }
 
   .body-5 {
     position: absolute;
-    top: 6000px;
+    top: 5900px;
     left: 60px;
     padding-top: 50px;
     font-size: 30px;
@@ -551,14 +551,14 @@ li a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 6700px;
+    top: 6600px;
     height: 60px;
     left: 20%;
   }
 
   .body-6 {
     position: absolute;
-    top: 6900px;
+    top: 6800px;
     left: 60px;
     padding-left: 0px;
     padding-right: 0px;
