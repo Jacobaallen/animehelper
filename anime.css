@@ -274,7 +274,7 @@ a{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: 650px;
+  height: 1050px;
 }
 
 .news-title {
@@ -327,6 +327,45 @@ a{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.n4{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 40em;
+  left: 15%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.n4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.n5{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 40em;
+  left: 40%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.n5:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.n6 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 40em;
+  left: 65%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.n6:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 @media (max-width: 1200px) {
 
   .news{
@@ -335,7 +374,7 @@ a{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 650px;
+    height: 1050px;
   }
 
   .news-title {
@@ -386,6 +425,45 @@ a{
   }
 
   .n3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .n4{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 43em;
+    left: 20px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .n4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .n5{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 43em;
+    left: 340px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .n5:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .n6 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 43em;
+    left: 660px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .n6:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 }
