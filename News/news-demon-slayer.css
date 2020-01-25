@@ -303,6 +303,7 @@ li a:hover {
   width: 700px;
   left: 25%;
   padding-bottom: 120px;
+  flex-direction: row;
 }
 
 @media (max-width: 1200px) {
@@ -504,6 +505,7 @@ li a:hover {
     width: 700px;
     left: 25%;
     padding-bottom: 140px;
+    flex-direction: row;
   }
 }
 
@@ -704,6 +706,7 @@ li a:hover {
     width: 700px;
     left: 20%;
     padding-bottom: 140px;
+    flex-direction: row;
   }
 
 }
