@@ -4,6 +4,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 .navbar{
   z-index: 1;
   text-shadow: 2px 2px 4px #000000;
@@ -723,7 +727,23 @@ a{
 .Footer-master{
   background-color: #D2DFFF;
   text-align: center;
-  top: 50%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-media {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-text {
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .counter {
