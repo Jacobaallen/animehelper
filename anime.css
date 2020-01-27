@@ -97,13 +97,6 @@ li a:hover {
   }
 }
 
-.SM{
-  display: flex;
-  justify-content: space-around;
-  margin: 15px;
-  padding: 0;
-}
-
 .hero-image-1{
   background-image: url("images/background-hero-1.png");
   background-repeat: no-repeat;
@@ -744,6 +737,7 @@ a{
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
 .counter {
