@@ -594,8 +594,6 @@ li a:hover {
     left: 20%;
     padding-bottom: 140px;
   }
-
-
 }
 
 .Footer-master{
@@ -604,6 +602,14 @@ li a:hover {
 	position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.footer-text {
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .counter {
