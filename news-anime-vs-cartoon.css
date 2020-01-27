@@ -499,6 +499,14 @@ li a:hover {
   width: 100%;
 }
 
+.footer-text {
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .counter {
   background-color: #D2DFFF;
   display: flex;
