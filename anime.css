@@ -725,12 +725,6 @@ a{
   width: 100%;
 }
 
-.social-media {
-  padding: 5px;
-  display: flex;
-  justify-content: space-around;
-}
-
 .footer-text {
   padding: 5px;
   margin: 0;
