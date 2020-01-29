@@ -11,7 +11,7 @@ p {
 .navbar{
   z-index: 1;
   text-shadow: 2px 2px 4px #000000;
-  background-color: #D2DFFF;
+  color: black;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -19,23 +19,82 @@ p {
   padding: 10px;
 }
 
-.fa-1x {
-font-size: 1.5rem;
+.navbar:not(.top-nav-collapse) {
+  background: #D2DFFF ;
+  position: fixed;
 }
-.navbar-toggler.toggler-example {
-cursor: pointer;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D2DFFF;
+  top: 0;
 }
-.dark-blue-text {
-color: #0A38F5;
+
+li {
+  float: left;
 }
-.dark-pink-text {
-color: #AC003A;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
-.dark-amber-text {
-color: #ff6f00;
+
+li a:hover {
+  background-color: #111;
 }
-.dark-teal-text {
-color: #004d40;
+
+
+@media (max-width: 991px) {
+  .navbar{
+    z-index: 1;
+    text-shadow: 2px 2px 4px #000000;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+  }
+
+  .navbar:not(.top-nav-collapse) {
+    background: #D2DFFF ;
+    position: fixed;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D2DFFF;
+    top: 0;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .navbar:not(.top-nav-collapse) {
+    background: #D2DFFF ;
+  }
 }
 
 .hero-image-1{
