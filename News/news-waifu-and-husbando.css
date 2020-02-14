@@ -308,7 +308,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ff3557 ;
-    font-size: 50px;
+    font-size: 60px;
     text-shadow: 2px 2px 4px #000000;
   }
 
@@ -333,7 +333,7 @@ body {
     justify-content: center;
     top: 910px;
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 40px;
     left: 60px;
     padding-left: 0px;
     padding-right: 0px;
@@ -369,7 +369,7 @@ body {
   .body-3 {
     position: absolute;
     top: 3200px;
-    font-size: 30px;
+    font-size: 40px;
     left: 60px;
     padding-left: 0px;
     padding-right: 0px;
@@ -388,7 +388,7 @@ body {
     position: absolute;
     top: 4900px;
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 40px;
     left: 60px;
     padding-left: 0px;
     padding-right: 0px;
@@ -407,7 +407,7 @@ body {
     top: 5900px;
     left: 60px;
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 40px;
     padding-left: 0px;
     padding-right: 0px;
   }
