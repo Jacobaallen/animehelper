@@ -361,14 +361,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 3100px;
+    top: 3200px;
     width: 200px;
     left: 40%;
   }
 
   .body-3 {
     position: absolute;
-    top: 3500px;
+    top: 3600px;
     font-size: 50px;
     left: 60px;
     padding-left: 0px;
@@ -379,14 +379,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4300px;
+    top: 4500px;
     width: 50px;
     align-items: center;
   }
 
   .body-4 {
     position: absolute;
-    top: 4700px;
+    top: 4800px;
     padding-top: 50px;
     font-size: 50px;
     left: 60px;
@@ -398,13 +398,13 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5600px;
+    top: 5700px;
     left: 30%;
   }
 
   .body-5 {
     position: absolute;
-    top: 5900px;
+    top: 6000px;
     left: 60px;
     padding-top: 50px;
     font-size: 50px;
@@ -417,7 +417,7 @@ body {
     justify-content: center;
     position: absolute;
     flex-direction: column;
-    top: 6600px;
+    top: 6700px;
     left: 30%;
   }
 }
