@@ -368,7 +368,7 @@ body {
 
   .body-3 {
     position: absolute;
-    top: 3600px;
+    top: 3700px;
     font-size: 50px;
     left: 60px;
     padding-left: 0px;
@@ -379,14 +379,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4500px;
+    top: 4600px;
     width: 50px;
     align-items: center;
   }
 
   .body-4 {
     position: absolute;
-    top: 4800px;
+    top: 5000px;
     padding-top: 50px;
     font-size: 50px;
     left: 60px;
@@ -398,13 +398,13 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5700px;
+    top: 5800px;
     left: 30%;
   }
 
   .body-5 {
     position: absolute;
-    top: 6000px;
+    top: 6100px;
     left: 60px;
     padding-top: 50px;
     font-size: 50px;
@@ -417,7 +417,7 @@ body {
     justify-content: center;
     position: absolute;
     flex-direction: column;
-    top: 6700px;
+    top: 6800px;
     left: 30%;
   }
 }
