@@ -308,7 +308,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ff3557 ;
-    font-size: 60px;
+    font-size: 75px;
     text-shadow: 2px 2px 4px #000000;
   }
 
@@ -343,7 +343,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1500px;
+    top: 1600px;
     left: 200px;
   }
 
