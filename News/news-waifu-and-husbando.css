@@ -214,6 +214,7 @@ body {
   flex-direction: column;
   top: 470%;
   left: 30%;
+  bottom: 200%;
 }
 
 @media (max-width: 1200px) {
@@ -461,6 +462,7 @@ body {
     flex-direction: column;
     top: 6800px;
     left: 30%;
+    bottom: 200px;
   }
 }
 
