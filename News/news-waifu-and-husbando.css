@@ -169,9 +169,9 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
+  flex-direction: column;
   top: 470%;
-  width: 700px;
-  left: 20%;
+  left: 30%;
 }
 
 @media (max-width: 1200px) {
@@ -293,10 +293,10 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
+    flex-direction: column;
     top: 5250px;
-    left: 20%;
+    left: 30%;
     padding-bottom: 400px;
-    align-items: center;
   }
 }
 
@@ -415,11 +415,10 @@ body {
   .image-6 {
     display: flex;
     justify-content: center;
-    align-items: center;
     position: absolute;
+    flex-direction: column;
     top: 6700px;
-    height: 60px;
-    left: 20%;
+    left: 30%;
   }
 }
 
