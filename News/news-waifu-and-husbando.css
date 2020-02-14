@@ -379,7 +379,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4600px;
+    top: 4700px;
     width: 50px;
     align-items: center;
   }
@@ -398,7 +398,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5800px;
+    top: 5900px;
     left: 30%;
   }
 
