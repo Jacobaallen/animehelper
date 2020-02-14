@@ -62,7 +62,7 @@ body {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ffe48a;
+  color: #ff3557;
   font-size: 75px;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -181,7 +181,7 @@ body {
     top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffe48a;
+    color: #ff3557;
     font-size: 50px;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -307,7 +307,7 @@ body {
     top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffe48a;
+    color: #ff3557;
     font-size: 50px;
     text-shadow: 2px 2px 4px #000000;
   }
