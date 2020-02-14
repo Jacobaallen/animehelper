@@ -42,7 +42,7 @@ p {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #ff3557;
   color: black;
 }
 
