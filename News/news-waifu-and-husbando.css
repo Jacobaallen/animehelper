@@ -333,7 +333,7 @@ body {
     justify-content: center;
     top: 910px;
     padding-top: 60px;
-    font-size: 40px;
+    font-size: 50px;
     left: 60px;
     padding-left: 0px;
     padding-right: 0px;
@@ -343,13 +343,13 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1600px;
+    top: 1700px;
     left: 200px;
   }
 
   .body-2 {
     position: absolute;
-    top: 2000px;
+    top: 2100px;
     left: 60px;
     padding-top: 50px;
     font-size: 50px;
@@ -361,14 +361,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 2600px;
+    top: 2900px;
     width: 200px;
     left: 40%;
   }
 
   .body-3 {
     position: absolute;
-    top: 3200px;
+    top: 3400px;
     font-size: 50px;
     left: 60px;
     padding-left: 0px;
