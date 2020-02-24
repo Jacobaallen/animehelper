@@ -23,7 +23,7 @@ body {
   color: white;
   padding: 10px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
   display: block;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -38,7 +38,7 @@ body {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ff3557;
+  background-color: #904CFF;
   color: black;
 }
 
@@ -56,6 +56,7 @@ body {
     position: fixed;
     width: 100%;
     z-index: 1;
+    height: 100px;  
   }
 
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -104,7 +105,7 @@ body {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #ff3557;
+  color: #904CFF;
   font-size: 75px;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -242,7 +243,7 @@ body {
     top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ff3557;
+    color: #904CFF;
     font-size: 50px;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -354,7 +355,6 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    flex-direction: column;
     top: 5250px;
     left: 30%;
     padding-bottom: 400px;
@@ -368,7 +368,7 @@ body {
     top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ff3557 ;
+    color: #904CFF ;
     font-size: 70px;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -376,8 +376,9 @@ body {
   .author {
     text-align: center;
     position: absolute;
-    top: 360px;
-    left: 40%;
+    top: 370px;
+    left: 35%;
+    font-size: 30px;
   }
 
   .image-1 {
@@ -404,13 +405,13 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1800px;
+    top: 2850px;
     left: 200px;
   }
 
   .body-2 {
     position: absolute;
-    top: 2200px;
+    top: 3100px;
     left: 60px;
     padding-top: 50px;
     font-size: 50px;
@@ -422,14 +423,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 3200px;
+    top: 4300px;
     width: 200px;
     left: 40%;
   }
 
   .body-3 {
     position: absolute;
-    top: 3700px;
+    top: 4600px;
     font-size: 50px;
     left: 60px;
     padding-left: 0px;
@@ -440,14 +441,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4700px;
+    top: 5500px;
     width: 50px;
     align-items: center;
   }
 
   .body-4 {
     position: absolute;
-    top: 5000px;
+    top: 5900px;
     padding-top: 50px;
     font-size: 50px;
     left: 60px;
@@ -459,13 +460,13 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5900px;
+    top: 6900px;
     left: 30%;
   }
 
   .body-5 {
     position: absolute;
-    top: 6100px;
+    top: 7100px;
     left: 60px;
     padding-top: 50px;
     font-size: 50px;
@@ -477,10 +478,28 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
+    top: 8600px;
+    left: 10%;  }
+
+  .body-6 {
+    position: absolute;
+    top: 8900px;
+    left: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 50px;
+    font-size: 50px;
+  }
+
+  .image-7 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
     flex-direction: column;
-    top: 6800px;
-    left: 30%;
-    bottom: 200px;
+    top: 9800px;
+    width: 600px;
+    left: 20%;
+    bottom: 300px;
   }
 }
 
@@ -509,4 +528,35 @@ body {
 .share-button {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 1000px) {
+  .Footer-master{
+    background-color: #D2DFFF;
+    text-align: center;
+  	position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+  }
+
+  .footer-text {
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .counter {
+    background-color: #D2DFFF;
+    display: flex;
+    justify-content: center;
+  }
+
+  .share-button {
+    display: flex;
+    justify-content: center;
+  }
 }
