@@ -386,7 +386,6 @@ body {
     justify-content: center;
     position: absolute;
     top: 450px;
-    left: 30px;
     width: 600px;
   }
 
@@ -406,7 +405,6 @@ body {
     justify-content: center;
     position: absolute;
     top: 2850px;
-    left: 10px;
   }
 
   .body-2 {
@@ -425,7 +423,7 @@ body {
     position: absolute;
     top: 4300px;
     width: 200px;
-    left: 20px;
+    align-items: center;
   }
 
   .body-3 {
@@ -461,7 +459,7 @@ body {
     justify-content: center;
     position: absolute;
     top: 6900px;
-    left: 30%;
+    align-items: center;
   }
 
   .body-5 {
@@ -479,7 +477,8 @@ body {
     justify-content: center;
     position: absolute;
     top: 8600px;
-    left: 10%;  }
+    align-items: center;
+  }
 
   .body-6 {
     position: absolute;
@@ -498,8 +497,8 @@ body {
     flex-direction: column;
     top: 9900px;
     width: 600px;
-    left: 20%;
-    bottom: 600px;
+    align-items: center;
+    padding-bottom: 400px;
   }
 }
 
