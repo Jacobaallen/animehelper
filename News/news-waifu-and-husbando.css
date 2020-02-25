@@ -163,7 +163,7 @@ body {
 
 .body-3 {
   position: absolute;
-  top: 270%;
+  top: 280%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
@@ -212,9 +212,10 @@ body {
   justify-content: center;
   position: absolute;
   flex-direction: column;
-  top: 470%;
+  top: 510%;
   left: 30%;
-  bottom: 200%;
+  bottom: 210%;
+  padding-bottom: 500px;
 }
 
 @media (max-width: 1200px) {
@@ -285,7 +286,7 @@ body {
 
   .body-3 {
     position: absolute;
-    top: 2800px;
+    top: 3000px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
@@ -337,7 +338,7 @@ body {
     justify-content: center;
     position: absolute;
     flex-direction: column;
-    top: 5250px;
+    top: 5500px;
     left: 30%;
     padding-bottom: 400px;
   }
