@@ -230,6 +230,7 @@ body {
   top: 550%;
   width: 600px;
   left: 30%;
+  padding-bottom: 300px;
 }
 
 @media (max-width: 1200px) {
