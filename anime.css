@@ -204,7 +204,7 @@ a{
 .support-button {
   background-color: #D2DFFF;
   padding: 1rem;
-  border-radius: 10px
+  border-radius: 10px;
 }
 
 @media (max-width: 991px) {
