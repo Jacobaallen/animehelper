@@ -404,7 +404,7 @@ a{
     position: absolute;
     width: 50%;
     left: 25%;
-    top: 1400px;
+    top: 1450px;
     padding: 50px;
     color: black;
     font-size: 1em;
@@ -770,32 +770,6 @@ a{
   }
 }
 
-.how-it-works-master{
-  display: flex;
-  align-items: center;
-  padding: 2em;
-}
-
-.how-it-works-title{
-  display: flex;
-  text-align: center;
-  margin-top: 2em;
-  padding-left: 2em;
-  padding-right: 2em;
-  margin-bottom: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
-  font-size: 3em;
-}
-
-.how-it-works-text{
-  display: flex;
-  text-align: left;
-  padding-left: 4em;
-  padding-right: 3em;
-  font-size: 1em;
-}
-
 .search-hero-image{
   background-image: url("images/map.png");
   background-repeat: no-repeat;
@@ -863,6 +837,33 @@ a{
   background-color: #111;
 }
 
+.how-it-works-master{
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  margin-bottom: 250px;
+}
+
+.how-it-works-title{
+  display: flex;
+  text-align: center;
+  margin-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  font-size: 3em;
+}
+
+.how-it-works-text{
+  display: flex;
+  text-align: left;
+  padding-left: 4em;
+  padding-right: 3em;
+  font-size: 1em;
+}
+
 .Footer-master{
   background-color: #D2DFFF;
   text-align: center;
@@ -892,7 +893,7 @@ a{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 250px;
+    height: 200px;
   }
 
   .footer-text {
