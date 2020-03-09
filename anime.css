@@ -347,7 +347,7 @@ a{
   position: absolute;
   width: 50%;
   left: 25%;
-  top: 1350px;
+  top: 1300px;
   padding: 120px;
   color: black;
   font-size: 1em;
@@ -359,6 +359,26 @@ a{
   top: 1400px;
   left: 45%;
   text-shadow: 2px 2px 4px #000000;
+}
+
+.rules {
+  text-align: center;
+  position: absolute;
+  top: 1600px;
+  left: 30%;
+  color: white;
+  font-size: 2em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.rules-button {
+  background-color: #D2DFFF;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.rules-button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 @media (max-width: 1200px) {
@@ -404,7 +424,7 @@ a{
     position: absolute;
     width: 50%;
     left: 25%;
-    top: 1450px;
+    top: 1350px;
     padding: 50px;
     color: black;
     font-size: 1em;
