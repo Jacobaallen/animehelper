@@ -1,0 +1,1221 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #D2DFFF;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ff3557;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #D2DFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+}
+
+.master {
+  top: 25%;
+}
+
+.header {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff3557;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.body-1 {
+  position: absolute;
+  top: 50%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-2 {
+  position: absolute;
+  top: 70%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-3 {
+  position: absolute;
+  top: 80%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-4 {
+  position: absolute;
+  top: 90%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-5 {
+  position: absolute;
+  top: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-6 {
+  position: absolute;
+  top: 110%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-7 {
+  position: absolute;
+  top: 120%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-8 {
+  position: absolute;
+  top: 130%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-9 {
+  position: absolute;
+  top: 140%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-10 {
+  position: absolute;
+  top: 150%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-11 {
+  position: absolute;
+  top: 160%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-12 {
+  position: absolute;
+  top: 175%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-13 {
+  position: absolute;
+  top: 185%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-14 {
+  position: absolute;
+  top: 195%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-15 {
+  position: absolute;
+  top: 205%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-16 {
+  position: absolute;
+  top: 215%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-17 {
+  position: absolute;
+  top: 225%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-18 {
+  position: absolute;
+  top: 235%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-19 {
+  position: absolute;
+  top: 245%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-20 {
+  position: absolute;
+  top: 255%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-21 {
+  position: absolute;
+  top: 265%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-22 {
+  position: absolute;
+  top: 275%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-23 {
+  position: absolute;
+  top: 285%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-24 {
+  position: absolute;
+  top: 295%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-25 {
+  position: absolute;
+  top: 305%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-26 {
+  position: absolute;
+  top: 315%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-27 {
+  position: absolute;
+  top: 325%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-28 {
+  position: absolute;
+  top: 335%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-29 {
+  position: absolute;
+  top: 345%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-30 {
+  position: absolute;
+  top: 355%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-31 {
+  position: absolute;
+  top: 365%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-32 {
+  position: absolute;
+  top: 375%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-33 {
+  position: absolute;
+  top: 385%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-34 {
+  position: absolute;
+  top: 395%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-35 {
+  position: absolute;
+  top: 405%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-36 {
+  position: absolute;
+  top: 415%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-37 {
+  position: absolute;
+  top: 425%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-38 {
+  position: absolute;
+  top: 435%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+.body-39 {
+  position: absolute;
+  top: 445%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  font-size: 20px;
+  padding-bottom: 200px;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff3557;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .body-1 {
+    position: absolute;
+    justify-content: center;
+    top: 450px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-2 {
+    position: absolute;
+    top: 930px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-3 {
+    position: absolute;
+    top: 1000px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-4 {
+    position: absolute;
+    top: 1150px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-5 {
+    position: absolute;
+    top: 1350px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-6 {
+    position: absolute;
+    top: 1550px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-7 {
+    position: absolute;
+    top: 1700px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-8 {
+    position: absolute;
+    top: 1900px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-9 {
+    position: absolute;
+    top: 2050px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-10 {
+    position: absolute;
+    top: 2250px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-11 {
+    position: absolute;
+    top: 2400px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-12 {
+    position: absolute;
+    top: 2700px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-13 {
+    position: absolute;
+    top: 2900px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-14 {
+    position: absolute;
+    top: 3100px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-15 {
+    position: absolute;
+    top: 3300px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-16 {
+    position: absolute;
+    top: 3500px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-17 {
+    position: absolute;
+    top: 3700px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-18 {
+    position: absolute;
+    top: 3900px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-19 {
+    position: absolute;
+    top: 4100px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-20 {
+    position: absolute;
+    top: 4300px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-21 {
+    position: absolute;
+    top: 4500px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-22 {
+    position: absolute;
+    top: 4700px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-23 {
+    position: absolute;
+    top: 4900px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-24 {
+    position: absolute;
+    top: 5100px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-25 {
+    position: absolute;
+    top: 5300px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-26 {
+    position: absolute;
+    top: 5400px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-27 {
+    position: absolute;
+    top: 5800px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-28 {
+    position: absolute;
+    top: 5900px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-29 {
+    position: absolute;
+    top: 6000px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-30 {
+    position: absolute;
+    top: 6200px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-31 {
+    position: absolute;
+    top: 6300px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-32 {
+    position: absolute;
+    top: 6400px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-33 {
+    position: absolute;
+    top: 6600px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-34 {
+    position: absolute;
+    top: 6800px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-35 {
+    position: absolute;
+    top: 6900px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-36 {
+    position: absolute;
+    top: 7100px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-37 {
+    position: absolute;
+    top: 7250px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-38 {
+    position: absolute;
+    top: 7500px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-39 {
+    position: absolute;
+    top: 7700px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff3557 ;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .body-1 {
+    position: absolute;
+    justify-content: center;
+    top: 450px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-2 {
+    position: absolute;
+    top: 1200px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-3 {
+    position: absolute;
+    top: 1400px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-4 {
+    position: absolute;
+    top: 1700px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-5 {
+    position: absolute;
+    top: 2000px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-6 {
+    position: absolute;
+    top: 2300px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-7 {
+    position: absolute;
+    top: 2600px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-8 {
+    position: absolute;
+    top: 2900px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-9 {
+    position: absolute;
+    top: 3100px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-10 {
+    position: absolute;
+    top: 3400px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-11 {
+    position: absolute;
+    top: 3600px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-12 {
+    position: absolute;
+    top: 4000px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-13 {
+    position: absolute;
+    top: 4300px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-14 {
+    position: absolute;
+    top: 4600px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-15 {
+    position: absolute;
+    top: 4900px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-16 {
+    position: absolute;
+    top: 5200px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-17 {
+    position: absolute;
+    top: 5500px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-18 {
+    position: absolute;
+    top: 5800px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-19 {
+    position: absolute;
+    top: 6100px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-20 {
+    position: absolute;
+    top: 6400px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-21 {
+    position: absolute;
+    top: 6700px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-22 {
+    position: absolute;
+    top: 6900px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-23 {
+    position: absolute;
+    top: 7200px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-24 {
+    position: absolute;
+    top: 7500px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-25 {
+    position: absolute;
+    top: 7800px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-26 {
+    position: absolute;
+    top: 8000px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-27 {
+    position: absolute;
+    top: 8400px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-28 {
+    position: absolute;
+    top: 8600px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-29 {
+    position: absolute;
+    top: 8800px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-30 {
+    position: absolute;
+    top: 9100px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-31 {
+    position: absolute;
+    top: 9400px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-32 {
+    position: absolute;
+    top: 9600px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-33 {
+    position: absolute;
+    top: 9800px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-34 {
+    position: absolute;
+    top: 10000px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-35 {
+    position: absolute;
+    top: 10200px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-36 {
+    position: absolute;
+    top: 10400px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-37 {
+    position: absolute;
+    top: 10600px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-38 {
+    position: absolute;
+    top: 10900px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .body-39 {
+    position: absolute;
+    top: 11100px;
+    padding-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+  }
+}
+
+.Footer-master{
+  background-color: #D2DFFF;
+  text-align: center;
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-text {
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.counter {
+  background-color: #D2DFFF;
+  display: flex;
+  justify-content: center;
+}
+
+.share-button {
+  display: flex;
+  justify-content: center;
+}
