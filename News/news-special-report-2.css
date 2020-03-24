@@ -68,7 +68,7 @@ body {
     color: white;
     padding: 10px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 60px;
     display: block;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -223,7 +223,7 @@ body {
     justify-content: center;
     top: 910px;
     padding-top: 60px;
-    font-size: 40px;
+    font-size: 50px;
     left: 20px;
     padding-left: 0px;
     padding-right: 0px;
@@ -233,7 +233,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5600px;
+    top: 9400px;
     left: 20%;
     padding-bottom: 1000px;
     bottom: 100px;
