@@ -56,7 +56,6 @@ body {
     position: fixed;
     width: 100%;
     z-index: 1;
-    height: 100px;
   }
 
   /* Hide the links inside the navigation menu (except for logo/home) */
@@ -84,7 +83,7 @@ body {
 
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #904CFF;
     color: black;
   }
 
