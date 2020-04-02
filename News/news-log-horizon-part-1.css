@@ -210,25 +210,6 @@ body {
   position: absolute;
   top: 470%;
   left: 30%;
-}
-
-.body-6 {
-  position: absolute;
-  top: 520%;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 50px;
-  font-size: 20px;
-}
-
-.image-7 {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  flex-direction: column;
-  top: 550%;
-  width: 600px;
-  left: 30%;
   padding-bottom: 300px;
 }
 
@@ -263,7 +244,7 @@ body {
   .body-1 {
     position: absolute;
     justify-content: center;
-    top: 910px;
+    top: 970px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
@@ -275,7 +256,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1600px;
+    top: 1500px;
     left: 5%;
   }
 
@@ -293,14 +274,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 2400px;
+    top: 2500px;
     width: 200px;
     left: 40%;
   }
 
   .body-3 {
     position: absolute;
-    top: 2700px;
+    top: 2800px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
@@ -312,7 +293,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 3100px;
+    top: 3300px;
     width: 50px;
     left: 55%;
     align-items: center;
@@ -320,7 +301,7 @@ body {
 
   .body-4 {
     position: absolute;
-    top: 3500px;
+    top: 3700px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
@@ -332,14 +313,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 3950px;
+    top: 4400px;
     width: 500px;
     left: 30%;
   }
 
   .body-5 {
     position: absolute;
-    top: 4200px;
+    top: 4700px;
     left: 60px;
     padding-top: 50px;
     font-size: 30px;
@@ -351,28 +332,8 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4800px;
-    left: 10%;
-  }
-
-  .body-6 {
-    position: absolute;
     top: 5100px;
-    left: 60px;
-    padding-top: 50px;
-    font-size: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .image-7 {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 5500px;
-    width: 50px;
-    left: 55%;
-    align-items: center;
+    left: 10%;
   }
 }
 
@@ -494,27 +455,6 @@ body {
     position: absolute;
     top: 8600px;
     left: 15%;
-  }
-
-  .body-6 {
-    position: absolute;
-    top: 8900px;
-    left: 60px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 50px;
-    font-size: 50px;
-  }
-
-  .image-7 {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    flex-direction: column;
-    top: 9900px;
-    width: 600px;
-    align-items: center;
-    padding-bottom: 500px;
     bottom: 100px;
   }
 }
