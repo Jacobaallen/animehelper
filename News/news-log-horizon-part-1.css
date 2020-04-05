@@ -208,6 +208,7 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
+  flex-direction: column;
   top: 470%;
   left: 30%;
   padding-bottom: 300px;
@@ -332,6 +333,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
+    flex-direction: column;
     top: 5100px;
     left: 10%;
   }
@@ -453,6 +455,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
+    flex-direction: column;
     top: 8700px;
     left: 15%;
     bottom: 200px;
