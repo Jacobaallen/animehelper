@@ -1,0 +1,115 @@
+body {
+	background: black url('img/stars.gif') repeat right top;
+}
+
+.navbar{
+  z-index: 1;
+  text-shadow: 2px 2px 4px #000000;
+  color: black;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: black ;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: black ;
+  }
+}
+
+.SM{
+  display: flex;
+  padding: 10px;
+}
+
+#stats {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	border: 5px solid black;
+	width: 140px;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: monospace;
+	text-align: center;
+	color: red;
+	background-color: #c1c1c1;
+}
+
+.play {
+	color: blue;
+	font-weight: bold;
+}
+
+.play:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#message {
+	color: yellow;
+	font-size: 62px;
+	margin-top: 250px;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+
+#ship {
+	height: 70px;
+	position: absolute;
+	bottom: 40px;
+	left: 50%;
+}
+
+.enemy {
+	background-image: url('img/invaders.png');
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+.e1 {
+	background-position: 0px 0px;
+}
+
+.e2 {
+	background-position: 0px 50px;
+}
+
+.e3 {
+	background-position: 0px 100px;
+}
+
+.bullet {
+	background-color: red;
+	width: 3px;
+	height: 50px;
+	position: absolute;
+	bottom: 60px;
+	animation-name: moveUp;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+}
+
+.explosion {
+	position: absolute;
+	background-image: url('img/bum.gif');
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+@keyframes moveUp {
+	from {bottom: 60px;}
+	to {bottom: 1000px;}
+}
+
+.footer {
+	background-color: #fa9157;
+	text-align: center;
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+}
