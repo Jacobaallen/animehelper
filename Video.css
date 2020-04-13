@@ -95,7 +95,7 @@ body {
 }
 
 .hero-image-4{
-  background-image: url("images/News_Wave.jpg");
+  background-image: url("images/movie-theater-2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -115,7 +115,7 @@ body {
   text-shadow: 2px 2px 4px #000000;
   color: white;
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  border: 3px solid #f1f1f1;
+  border: 2px solid #f1f1f1;
   transform: translate(-50%, -50%);
   z-index: 0;
 }
