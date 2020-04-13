@@ -38,7 +38,7 @@ body {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ff3557;
+  background-color: #0088dc;
   color: black;
 }
 
@@ -63,7 +63,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #0088dc;
-  font-size: 4rem;
+  font-size: 2rem;
   text-shadow: 2px 2px 4px #000000;
 }
 
