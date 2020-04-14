@@ -216,7 +216,7 @@ body {
     justify-content: center;
     position: absolute;
     top: 500px;
-    left: .1%;
+    left: 20%;
   }
 
   .body-1 {
@@ -235,8 +235,8 @@ body {
     justify-content: center;
     position: absolute;
     top: 1500px;
-    left: 0;
-    bottom: 200px;
+    left: 30%;
+    padding-bottom: 300px;
   }
 }
 
