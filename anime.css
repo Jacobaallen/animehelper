@@ -127,26 +127,6 @@ a{
   justify-content: space-around;
 }
 
-.search-button{
-  background-color: #D2DFFF;
-  padding: 1rem;
-  border-radius: 10px;
-}
-
-.search-text-1{
-  text-align: center;
-  position: absolute;
-  top: 60%;
-  left: 55%;
-  color: white;
-  font-size: 3em;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.search-text-1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
 .game-button{
   background-color: #D2DFFF;
   padding: 1rem;
@@ -157,7 +137,7 @@ a{
   text-align: center;
   position: absolute;
   top: 60%;
-  left: 30%;
+  left: 25%;
   color: white;
   font-size: 3em;
   text-shadow: 2px 2px 4px #000000;
@@ -187,11 +167,51 @@ a{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.video-button{
+  background-color: #D2DFFF;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.video-text-1{
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  color: white;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.video-text-1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.search-button{
+  background-color: #D2DFFF;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.search-text-1{
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  color: white;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.search-text-1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 .support-text-button {
   text-align: center;
   position: absolute;
   top: 75%;
-  left: 40%;
+  left: 50%;
   color: white;
   font-size: 3em;
   text-shadow: 2px 2px 4px #000000;
@@ -207,7 +227,7 @@ a{
   border-radius: 10px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1100px) {
   .animehelper-text {
     text-align: center;
     position: absolute;
@@ -222,26 +242,6 @@ a{
   .main-buttons {
     display: flex;
     justify-content: space-around;
-  }
-
-  .search-button{
-    background-color: #D2DFFF;
-    padding: 1rem;
-    border-radius: 10px
-  }
-
-  .search-text-1{
-    text-align: center;
-    position: absolute;
-    top: 500px;
-    left: 560px;
-    color: white;
-    font-size: 3em;
-    text-shadow: 2px 2px 4px #000000;
-  }
-
-  .search-text-1:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
   .game-button{
@@ -284,11 +284,51 @@ a{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
+  .video-button{
+    background-color: #D2DFFF;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  .video-text-1{
+    text-align: center;
+    position: absolute;
+    top: 500px;
+    left: 560px;
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .video-text-1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .search-button{
+    background-color: #D2DFFF;
+    padding: 1rem;
+    border-radius: 10px
+  }
+
+  .search-text-1{
+    text-align: center;
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .search-text-1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
   .support-text-button {
     text-align: center;
     position: absolute;
     top: 600px;
-    left: 350px;
+    left: 500px;
     color: white;
     font-size: 3em;
     text-shadow: 2px 2px 4px #000000;
