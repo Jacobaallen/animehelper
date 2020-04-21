@@ -2,25 +2,93 @@ body {
 	background: black url('img/stars.gif') repeat right top;
 }
 
-.navbar{
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #D2DFFF;
+  width: 100%;
   z-index: 1;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 40px;
+  display: block;
   text-shadow: 2px 2px 4px #000000;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #49CBFF;
   color: black;
 }
 
-.navbar:not(.top-nav-collapse) {
-  background: black ;
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
 }
 
 @media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: black ;
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #D2DFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
   }
-}
 
-.SM{
-  display: flex;
-  padding: 10px;
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 50px;
+    display: block;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #49CBFF;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
 }
 
 #stats {
