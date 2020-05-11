@@ -703,7 +703,7 @@ a{
   justify-content: center;
   position: absolute;
   margin-top: 200px;
-  left: 25%;
+  left: 15%;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -716,11 +716,24 @@ a{
   justify-content: center;
   position: absolute;
   margin-top: 200px;
-  left: 55%;
+  left: 40%;
   text-shadow: 2px 2px 4px #000000;
 }
 
 .v2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.v3{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 200px;
+  left: 65%;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.v3:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -731,7 +744,7 @@ a{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    height: 500px;
+    height: 1000px;
   }
 
   .video-title {
@@ -750,8 +763,8 @@ a{
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 200px;
-    left: 150px;
+    margin-top: 150px;
+    left: 340px;
     text-shadow: 2px 2px 4px #000000;
   }
 
@@ -763,12 +776,25 @@ a{
     display: flex;
     justify-content: center;
     position: absolute;
-    margin-top: 200px;
-    left: 550px;
+    margin-top: 450px;
+    left: 340px;
     text-shadow: 2px 2px 4px #000000;
   }
 
   .v2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .v3{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 750px;
+    left: 340px;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .v3:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 }
