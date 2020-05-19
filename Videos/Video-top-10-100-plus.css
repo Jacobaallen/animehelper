@@ -137,7 +137,7 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 130%;
+  top: 150%;
   left: 20%;
   padding-bottom: 300px;
 }
@@ -185,7 +185,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1300px;
+    top: 1100px;
     left: 5%;
     padding-bottom: 200px;
   }
@@ -222,7 +222,7 @@ body {
   .body-1 {
     position: absolute;
     justify-content: center;
-    top: 1000px;
+    top: 800px;
     padding-top: 60px;
     font-size: 50px;
     left: 60px;
@@ -234,7 +234,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1500px;
+    top: 1100px;
     left: 30%;
     padding-bottom: 300px;
   }
