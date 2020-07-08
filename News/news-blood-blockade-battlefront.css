@@ -221,7 +221,7 @@ body {
     top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #49CBFF;
+    color: #ff3557;
     font-size: 60px;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -257,13 +257,13 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 1700px;
+    top: 1400px;
     left: 5%;
   }
 
   .body-2 {
     position: absolute;
-    top: 2000px;
+    top: 1800px;
     left: 60px;
     padding-top: 50px;
     font-size: 30px;
@@ -275,14 +275,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 2500px;
+    top: 2200px;
     width: 200px;
     left: 40%;
   }
 
   .body-3 {
     position: absolute;
-    top: 2800px;
+    top: 2600px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
@@ -302,7 +302,7 @@ body {
 
   .body-4 {
     position: absolute;
-    top: 3600px;
+    top: 3700px;
     padding-top: 50px;
     font-size: 30px;
     left: 60px;
@@ -314,14 +314,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4100px;
+    top: 4500px;
     width: 500px;
     left: 30%;
   }
 
   .body-5 {
     position: absolute;
-    top: 4500px;
+    top: 4900px;
     left: 60px;
     padding-top: 50px;
     font-size: 30px;
@@ -334,7 +334,7 @@ body {
     justify-content: center;
     position: absolute;
     flex-direction: column;
-    top: 4900px;
+    top: 5400px;
     left: 10%;
   }
 }
@@ -346,7 +346,7 @@ body {
     top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #49CBFF ;
+    color: #ff3557;
     font-size: 70px;
     text-shadow: 2px 2px 4px #000000;
   }
@@ -382,13 +382,13 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 3200px;
+    top: 2600px;
     left: 0;
   }
 
   .body-2 {
     position: absolute;
-    top: 3600px;
+    top: 2900px;
     left: 60px;
     padding-top: 50px;
     font-size: 50px;
@@ -400,14 +400,14 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 4900px;
+    top: 4000px;
     align-items: center;
     left: 45%;
   }
 
   .body-3 {
     position: absolute;
-    top: 5200px;
+    top: 4400px;
     font-size: 50px;
     left: 60px;
     padding-left: 0px;
@@ -418,7 +418,7 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 6300px;
+    top: 6400px;
     width: 50px;
     align-items: center;
   }
@@ -437,13 +437,13 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 7700px;
+    top: 9200px;
     align-items: center;
   }
 
   .body-5 {
     position: absolute;
-    top: 8000px;
+    top: 9500px;
     left: 60px;
     padding-top: 50px;
     font-size: 50px;
@@ -456,9 +456,9 @@ body {
     justify-content: center;
     position: absolute;
     flex-direction: column;
-    top: 8900px;
+    top: 11400px;
     left: 15%;
-    bottom: 300px;
+    bottom: 400px;
   }
 }
 
