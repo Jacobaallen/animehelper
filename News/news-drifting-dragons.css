@@ -456,9 +456,9 @@ body {
     justify-content: center;
     position: absolute;
     flex-direction: column;
-    top: 8900px;
+    top: 9000px;
     left: 15%;
-    bottom: 300px;
+    bottom: 500px;
   }
 }
 
