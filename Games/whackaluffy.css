@@ -38,7 +38,7 @@ body {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #FF518F;
+  background-color: #ff3557;
   color: black;
 }
 
@@ -48,20 +48,69 @@ body {
   color: white;
 }
 
+@media (max-width: 991px) {
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #D2DFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 60px;
+    display: block;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ff3557;
+    color: black;
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+}
+
 .master-background {
   background-image: url("img/ocean-wave.gif");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
+  height: 1000;
 }
+
 .master-title {
-  height: 400px;
-  margin-top: 10px;
+  font-size: 3em;
+  padding-top: 50px;
 }
+
 .master-title2{
-  height: 200px;
   background-position: right;
+  font-size: 2em;
 }
 
 .about-information{
@@ -70,6 +119,13 @@ body {
   margin-left: 15em;
   margin-right: 15em;
   font-size: 2em;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1em;
 }
 
 button {
@@ -122,15 +178,61 @@ main {
   height: 2em;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1400px) {
+  .master-title {
+    font-size: 40px;
+    padding-top: 70px;
+  }
 
+  .master-title2{
+    background-position: right;
+    font-size: 30px;
+  }
+
+  .about-information{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+  }
+
+  .score {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .master-title {
+    font-size: 3em;
+    padding-top: 50px;
+  }
+  .master-title2{
+    background-position: right;
+    font-size: 10px;
+  }
+
+  .about-information{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+  }
+
+  .score {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10px;
+  }
   .about-information{
     display: flex;
     justify-content: center;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 1rem;
-    margin-bottom: 100px;
+    font-size: 10px;
   }
 
   button {
@@ -180,23 +282,31 @@ main {
 
 @media (max-width: 700px) {
   .master-title {
-    height: 20px;
-    margin-top: 2px;
-    font-size: 4em;
+    font-size: 20px;
+    padding-top: 100px;
   }
   .master-title2{
-    height: 10px;
     background-position: right;
-    font-size: 2rem;
+    font-size: 15px;
   }
 
   .about-information{
     display: flex;
     justify-content: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 1rem;
-    margin-bottom: 100px;
+    font-size: 15px;
+  }
+
+  .score {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+  }
+
+  .about-information{
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
   }
 
   button {

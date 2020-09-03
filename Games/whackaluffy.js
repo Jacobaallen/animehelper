@@ -37,7 +37,7 @@ function peep(luffy) {
 }
 
 function startGame() {
-  remainingPeeps = 20
+  remainingPeeps = 28
   score = 0
   scoreBoard.textContent = score
   const luffy = randomLuffy()
