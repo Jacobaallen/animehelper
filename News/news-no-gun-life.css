@@ -70,7 +70,7 @@ body {
 .author {
   text-align: center;
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 40%;
 }
 
@@ -78,14 +78,14 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 30%;
   width: 600px;
 }
 
 .body-1 {
   position: absolute;
-  top: 105%;
+  top: 115%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
