@@ -92,36 +92,50 @@ body {
   font-size: 20px;
 }
 
+.ad-1 {
+  position: absolute;
+  top: 145%;
+  display: flex;
+  justify-content: center;
+}
+
 .image-2 {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 150%;
+  top: 160%;
   width: 700px;
   left: 25%;
 }
 
 .body-2 {
   position: absolute;
-  top: 190%;
+  top: 200%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
   font-size: 20px;
 }
 
+.ad-2 {
+  position: absolute;
+  top: 220%;
+  display: flex;
+  justify-content: center;
+}
+
 .image-3 {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 220%;
+  top: 240%;
   width: 200px;
   left: 40%;
 }
 
 .body-3 {
   position: absolute;
-  top: 250%;
+  top: 270%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
@@ -132,7 +146,7 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 280%;
+  top: 300%;
   width: 50px;
   left: 50%;
   align-items: center;
@@ -140,25 +154,32 @@ body {
 
 .body-4 {
   position: absolute;
-  top: 310%;
+  top: 330%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
   font-size: 20px;
 }
 
+.ad-3 {
+  position: absolute;
+  top: 340%;
+  display: flex;
+  justify-content: center;
+}
+
 .image-5 {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 340%;
+  top: 360%;
   width: 600px;
   left: 30%;
 }
 
 .body-5 {
   position: absolute;
-  top: 370%;
+  top: 390%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
@@ -169,32 +190,39 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 410%;
+  top: 430%;
   width: 700px;
   left: 20%;
 }
 
 .body-6 {
   position: absolute;
-  top: 450%;
+  top: 470%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
   font-size: 20px;
 }
 
+.ad-4 {
+  position: absolute;
+  top: 480%;
+  display: flex;
+  justify-content: center;
+}
+
 .image-7 {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 480%;
+  top: 500%;
   width: 700px;
   left: 25%;
 }
 
 .body-7 {
   position: absolute;
-  top: 520%;
+  top: 540%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
@@ -205,7 +233,7 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 550%;
+  top: 570%;
   width: 700px;
   left: 25%;
   padding-bottom: 140px;
@@ -213,25 +241,32 @@ body {
 
 .body-8 {
   position: absolute;
-  top: 590%;
+  top: 610%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
   font-size: 20px;
 }
 
+.ad-5 {
+  position: absolute;
+  top: 620%;
+  display: flex;
+  justify-content: center;
+}
+
 .image-9 {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 620%;
+  top: 640%;
   width: 700px;
   left: 25%;
 }
 
 .body-9 {
   position: absolute;
-  top: 660%;
+  top: 680%;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 50px;
@@ -242,11 +277,18 @@ body {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 700%;
+  top: 720%;
   width: 700px;
   left: 25%;
-  padding-bottom: 120px;
   flex-direction: column;
+}
+
+.ad-6 {
+  position: absolute;
+  top: 750%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 120px;
 }
 
 @media (max-width: 1200px) {
