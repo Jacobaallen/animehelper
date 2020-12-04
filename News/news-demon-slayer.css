@@ -95,8 +95,6 @@ body {
 .ad-1 {
   position: absolute;
   top: 145%;
-  display: flex;
-  justify-content: center;
 }
 
 .image-2 {
@@ -120,8 +118,6 @@ body {
 .ad-2 {
   position: absolute;
   top: 220%;
-  display: flex;
-  justify-content: center;
 }
 
 .image-3 {
@@ -164,8 +160,6 @@ body {
 .ad-3 {
   position: absolute;
   top: 340%;
-  display: flex;
-  justify-content: center;
 }
 
 .image-5 {
@@ -207,8 +201,6 @@ body {
 .ad-4 {
   position: absolute;
   top: 480%;
-  display: flex;
-  justify-content: center;
 }
 
 .image-7 {
@@ -251,8 +243,6 @@ body {
 .ad-5 {
   position: absolute;
   top: 620%;
-  display: flex;
-  justify-content: center;
 }
 
 .image-9 {
@@ -280,14 +270,13 @@ body {
   top: 720%;
   width: 700px;
   left: 25%;
+  padding-bottom: 120px;
   flex-direction: column;
 }
 
 .ad-6 {
   position: absolute;
   top: 750%;
-  display: flex;
-  justify-content: center;
   padding-bottom: 120px;
 }
 
