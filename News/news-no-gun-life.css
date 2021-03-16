@@ -48,8 +48,9 @@ body {
   color: white;
 }
 
-@media (max-width: 991px) {
-
+.side {
+  grid-column: 4/1;
+  grid-row: 2/3;
 }
 
 .master {
