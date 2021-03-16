@@ -1,0 +1,65 @@
+.grid-container {
+  display: grid;
+
+  grid-template-columns: 2fr 1fr;
+
+
+}
+
+  
+/* grid-template-columns: 2fr 1fr ;
+
+grid-gap: 10px;
+grid-template-areas: "header header header"
+"sidebar main main main"
+"sidebar content1 content1 content1"
+"sidebar content2 content2 content2"
+"sidebar content3 content3 content3"
+"sidebar content4 content4 content4"
+"sidebar content5 content5 content5"
+"sidebar content6 content6 content6";
+
+}
+
+.item0 {
+grid-area: header;
+}
+.item1 {
+grid-area: sidebar;
+}
+.item2 {
+grid-area: content1;
+}
+.item3 {
+grid-area: content2;
+}
+.item4 {
+grid-area: content3;
+}
+.item5 {
+grid-area: content4;
+}
+.item6 {
+grid-area: content5;
+}
+.item7 {
+grid-area: content6;
+}
+.item8 {
+
+}
+.item9 {
+
+}
+.item10 {
+
+}
+.item11 {
+
+}
+.item12 {
+
+}
+.item13 {
+
+} */
